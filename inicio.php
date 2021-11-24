@@ -58,6 +58,12 @@
 
             }
 
+			.navbar-brand {
+
+				margin-right: 5px;
+
+			}
+
         </style>
 
     </head>
@@ -110,7 +116,7 @@
     	        <div class="card text-center h-100">
       		        <img src="imagens/cards/example1.jpg" class="card-img-top" alt="...">
       		        <div class="card-body">
-        		        <h5 class="card-title">Card title</h5>
+        		        <h3 class="card-title">Card title</h3>
         		        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 				        <a class="btn btn-primary"><i class="fas fa-gamepad fa-fw"></i>DISPUTAR JOGOS</a>
 			        </div>
@@ -120,7 +126,7 @@
     	        <div class="card text-center h-100">
       		        <img src="imagens/cards/example2.jpg" class="card-img-top" alt="...">
       			        <div class="card-body">
-        			        <h5 class="card-title">Card title</h5>
+        			        <h3 class="card-title">Card title</h3>
         			        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 					        <a class="btn btn-primary"><i class="fas fa-gamepad fa-fw"></i>DISPUTAR JOGOS</a>
 				        </div>
@@ -130,7 +136,7 @@
     	        <div class="card text-center h-100">
       		        <img src="imagens/cards/example3.jpg" class="card-img-top" alt="...">
       			        <div class="card-body">
-        			        <h5 class="card-title">Card title</h5>
+        			        <h3 class="card-title">Card title</h3>
         			        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 					        <a class="btn btn-primary"><i class="fas fa-plus fa-fw"></i>CRIAR JOGOS</a>
 				        </div>
