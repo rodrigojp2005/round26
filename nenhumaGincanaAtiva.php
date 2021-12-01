@@ -34,37 +34,20 @@
 
             }
 
-            .card img {
+            .imgCard {
 
                 height: 350px;
-
-            }
-
-            #botaoVoltar {
-
-                margin-bottom: 20px;
 
             }
 
             #containerBotaoVoltar {
 
                 text-align: center;
+                margin-bottom: 20px;
 
             }
 
-            .fas {
-
-                margin-right: 5px;
-
-            }
-
-            footer {
-
-                background-color: rgba(0, 0, 0, 0.2);
-
-            }
-
-            .navbar-brand {
+            i {
 
                 margin-right: 5px;
 
@@ -97,21 +80,21 @@
 
         <div class="row row-cols-1 row-cols-md-2 g-4">
   	        <div class="col">
-    	        <div class="card text-center h-100">
-      		        <img src="imagens/cards/example1.jpg" class="card-img-top" alt="...">
+    	        <div class="card text-center h-100 shadow-sm">
+      		        <img src="imagens/cards/example1.jpg" class="imgCard card-img-top" alt="...">
       		        <div class="card-body">
-        		        <h3 class="card-title">Card title</h3>
-        		        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        		        <h3 class="card-title">Gincanas Empresariais</h3>
+        		        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis molestias beatae recusandae, vel laudantium odio deserunt eum nam voluptate incidunt in pariatur sapiente iure minima esse ipsum quisquam expedita exercitationem.</p>
 				        <a class="btn btn-primary"><i class="fas fa-plus fa-fw"></i>CRIAR GINCANA EMPRESARIAL</a>
 			        </div>
     	        </div>
   	        </div>
   	        <div class="col">
-    	        <div class="card text-center h-100">
-      		        <img src="imagens/cards/example2.jpg" class="card-img-top" alt="...">
+    	        <div class="card text-center h-100 shadow-sm">
+      		        <img src="imagens/cards/example2.jpg" class="imgCard card-img-top" alt="...">
       			        <div class="card-body">
-        			        <h3 class="card-title">Card title</h3>
-        			        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        			        <h3 class="card-title">Gincanas Pessoais</h3>
+        			        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore maiores ex aspernatur omnis iure, a veritatis consectetur eveniet quo officia quia vero natus, reprehenderit et optio sed ab saepe reiciendis!</p>
 					        <a class="btn btn-primary"><i class="fas fa-plus fa-fw"></i>CRIAR GINCANA PESSOAL</a>
 				        </div>
     		        </div>
@@ -122,7 +105,7 @@
         <!-- Botão de retorno -->
         
         <div id="containerBotaoVoltar">
-            <a id="botaoVoltar" class="btn btn-outline-danger"><i class="fas fa-arrow-left fa-fw"></i>VOLTAR</a>
+            <a class="btn btn-outline-danger" href="inicio.php"><i class="fas fa-arrow-left fa-fw"></i>VOLTAR PARA A PÁGINA INICIAL</a>
         </div>
 
     </body>

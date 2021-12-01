@@ -33,15 +33,9 @@
 
             }
 
-            .card img {
+            .imgCard {
 
                 height: 375px;
-
-            }
-
-            footer {
-
-                background-color: rgba(0, 0, 0, 0.2);
 
             }
 
@@ -52,17 +46,11 @@
 
             }
 
-            img {
+            .imgBanner {
 
                 height: 500px;
 
             }
-
-			.navbar-brand {
-
-				margin-right: 5px;
-
-			}
 
         </style>
 
@@ -90,13 +78,13 @@
         	</div>
 	        <div class="carousel-inner">
             	<div class="carousel-item active">
-      		        <img src="imagens/carrosselInformativo/example1.jpg" class="d-block w-100" alt="...">
+      		        <img src="imagens/carrosselInformativo/example1.jpg" class="imgBanner d-block w-100" alt="...">
     	        </div>
     	        <div class="carousel-item">
-      		        <img src="imagens/carrosselInformativo/example2.jpg" class="d-block w-100" alt="...">
+      		        <img src="imagens/carrosselInformativo/example2.jpg" class="imgBanner d-block w-100" alt="...">
     	        </div>
     	        <div class="carousel-item">
-      		        <img src="imagens/carrosselInformativo/example3.jpg" class="d-block w-100" alt="...">
+      		        <img src="imagens/carrosselInformativo/example3.jpg" class="imgBanner d-block w-100" alt="...">
     	        </div>
   	        </div>
   	        <button class="carousel-control-prev" type="button" data-bs-target="#carrosselInformativo" data-bs-slide="prev">
@@ -113,31 +101,31 @@
 
         <div class="row row-cols-1 row-cols-md-3 g-4">
   	        <div class="col">
-    	        <div class="card text-center h-100">
-      		        <img src="imagens/cards/example1.jpg" class="card-img-top" alt="...">
+    	        <div class="card text-center h-100 shadow-sm">
+      		        <img src="imagens/cards/example1.jpg" class="imgCard card-img-top" alt="...">
       		        <div class="card-body">
-        		        <h3 class="card-title">Card title</h3>
-        		        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        		        <h3 class="card-title">Gincanas Empresariais</h3>
+        		        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum nulla quae dolorem iusto id, cupiditate soluta quam, ab, dicta rerum iure nemo in quibusdam praesentium laudantium dolores. Rem, velit illum.</p>
 				        <a class="btn btn-primary"><i class="fas fa-gamepad fa-fw"></i>DISPUTAR JOGOS</a>
 			        </div>
     	        </div>
   	        </div>
   	        <div class="col">
-    	        <div class="card text-center h-100">
-      		        <img src="imagens/cards/example2.jpg" class="card-img-top" alt="...">
+    	        <div class="card text-center h-100 shadow-sm">
+      		        <img src="imagens/cards/example2.jpg" class="imgCard card-img-top" alt="...">
       			        <div class="card-body">
-        			        <h3 class="card-title">Card title</h3>
-        			        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        			        <h3 class="card-title">Gincanas Pessoais</h3>
+        			        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit obcaecati enim, alias omnis debitis suscipit laboriosam sint architecto quaerat neque sequi quod placeat minus rem vero, iure repellat adipisci dolor!</p>
 					        <a class="btn btn-primary"><i class="fas fa-gamepad fa-fw"></i>DISPUTAR JOGOS</a>
 				        </div>
     		        </div>
   		        </div>
   	        <div class="col">
-    	        <div class="card text-center h-100">
-      		        <img src="imagens/cards/example3.jpg" class="card-img-top" alt="...">
+    	        <div class="card text-center h-100 shadow-sm">
+      		        <img src="imagens/cards/example3.jpg" class="imgCard card-img-top" alt="...">
       			        <div class="card-body">
-        			        <h3 class="card-title">Card title</h3>
-        			        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        			        <h3 class="card-title">Criar Gincana</h3>
+        			        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi saepe nemo soluta sit sequi error natus, omnis fuga, quos, beatae animi. Hic eum velit voluptatum optio laudantium sapiente labore voluptates!</p>
 					        <a class="btn btn-primary"><i class="fas fa-plus fa-fw"></i>CRIAR JOGOS</a>
 				        </div>
     		        </div>

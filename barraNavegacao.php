@@ -1,3 +1,16 @@
+
+<!-- CSS -->
+
+<style>
+
+	.navbar-brand {
+
+		margin-right: 0px;
+
+	}
+
+</style>
+
 <!-- Barra de navegação -->
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm">
@@ -17,13 +30,13 @@
 					<a class="nav-link" href="#"><i class="fas fa-wallet fa-fw"></i>Saldo</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#"><i class="fas fa-city fa-fw"></i>Cidade</a>
+					<a class="nav-link" href="#"><i class="fas fa-map-marker-alt a-fw"></i>Cidade</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#"><i class="fas fa-gamepad fa-fw"></i>Minhas Gincanas</a>
 				</li>
 				<li class="nav-item">
-					<a class="btn btn-outline-primary" href="#"><i class="fas fa-sign-in-alt fa-fw"></i>Entrar/Cadastrar</a>
+					<a class="btn btn-outline-primary" href="#"><i class="fas fa-sign-in-alt fa-fw"></i>ENTRAR / CADASTRAR</a>
 				</li>
 			</ul>
 		</div>

@@ -68,24 +68,13 @@
 
     <body>
 
-        <!-- Formulário -->
-
-        <form class="row g-3 align-items-center d-flex justify-content-center">
-            <div class="col-auto">
-                <label for="inputCodigoAmigo" class="col-form-label"><strong>Possui um código de um amigo?</strong> Digite-o aqui e ganhe 2 pontos!</label>
-            </div>
-            <div class="col-auto">
-                <input type="text" id="inputCodigoAmigo" class="form-control">
-            </div>
-            <div class="col-auto">
-                <input class="btn btn-primary" type="submit" value="ENVIAR" name="">
-            </div>
-        </form>
-
         <!-- Título da página -->
 
         <div id="containerTitulo">
-            <h3 class="display-6">Gincana de Exemplo #1</h3>
+            <h1>Edição de Questões de Gincana</h1>
+            <h1 class="display-6">Visualizando as perguntas da Gincana #1</h1>
+            <p>Clique no botão abaixo para adicionar uma nova pergunta à gincana.</p>
+            <a class="btn btn-primary"><i class="fas fa-plus fa-fw"></i>ADICIONAR QUESTÃO</a>
         </div>
 
         <!-- Cards das questões -->
@@ -103,7 +92,8 @@
                                 <li>Alternativa...</li>
                             </ul>
                         </p>
-                        <a class="btn btn-primary"><i class="fas fa-gamepad fa-fw"></i>RESPONDER</a>
+                        <a class="btn btn-primary"><i class="fas fa-edit fa-fw"></i>EDITAR</a>
+                        <a class="btn btn-danger"><i class="fas fa-trash fa-fw"></i>EXCLUIR</a>
 			        </div>
     	        </div>
   	        </div>
@@ -119,7 +109,8 @@
                                     <li>Alternativa...</li>
                                 </ul>
                             </p>
-                        <a class="btn btn-primary"><i class="fas fa-gamepad fa-fw"></i>RESPONDER</a>
+                            <a class="btn btn-primary"><i class="fas fa-edit fa-fw"></i>EDITAR</a>
+                            <a class="btn btn-danger"><i class="fas fa-trash fa-fw"></i>EXCLUIR</a>
 				        </div>
     		        </div>
   		        </div>
@@ -135,7 +126,8 @@
                                     <li>Alternativa...</li>
                                 </ul>
                             </p>
-                            <a class="btn btn-primary"><i class="fas fa-gamepad fa-fw"></i>RESPONDER</a>
+                            <a class="btn btn-primary"><i class="fas fa-edit fa-fw"></i>EDITAR</a>
+                            <a class="btn btn-danger"><i class="fas fa-trash fa-fw"></i>EXCLUIR</a>
 				        </div>
     		        </div>
   		        </div>
