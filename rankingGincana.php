@@ -15,7 +15,7 @@
 
         <!-- Título da página -->
 
-        <title>Participantes - Round26</title>
+        <title>Ranking - Round26</title>
 
         <!-- CSS -->
 
@@ -27,14 +27,14 @@
 
             }
 
-            #containerTitulo {
+            header {
 
                 margin: 20px 20px 0px 20px;
                 text-align: center;
 
             } 
 
-            #tabelaParticipantes {
+            main {
 
                 margin: 20px;
 
@@ -56,38 +56,54 @@
             #containerBotaoVoltar {
 
                 text-align: center;
-                margin-bottom: 20px;
+                margin: 0px 20px 0px 20px;
 
             }
+
+            @media (min-width: 0px) and (max-width: 1199.98px) { 
+				
+				.btn {
+
+					width: 100%;
+
+				}
+
+                .btn:first-child {
+
+                    margin-bottom: 10px;
+
+                }
+
+			}
 
         </style>
 
     </head>
 
-    <!-- Realiza a importação da barra de navegação -->
-
-    <?php
-
-        require_once "barraNavegacao.php";
-
-    ?>
-
     <!-- Corpo da página -->
 
     <body>
 
-        <!-- Cabeçalho da página -->
+        <!-- Realiza a importação da barra de navegação -->
 
-        <div id="containerTitulo">
-            <h1>Participantes da Gincana</h1>
+        <?php
+
+            require_once "barraNavegacao.php";
+
+        ?>
+
+        <!-- Cabeçalho do corpo da página -->
+
+        <header>
+            <h1>Ranking da Gincana</h1>
             <h1 class="display-6">4 usuários estão participando da sua gincana!</h1>
-        </div>
+        </header>
 
-        <!-- Tabela dos participantes -->
+        <!-- Ranking da gincana -->
         <!-- Observação: podemos utilizar essa mesma gincana para o usuário final, basta apenas ocultar
         os botões que permitem visualizar se o usuário já resgatou o cupom de desconto -->
 
-        <div id="tabelaParticipantes">
+        <main>
             <table class="table table-bordered table-striped table-hover table-responsive">
                 <thead>
                     <tr>
@@ -129,7 +145,7 @@
                     </tr>
                 </tbody>
             </table>
-        </div>
+        </main>
 
         <!-- Botão de retorno -->
         
@@ -137,14 +153,14 @@
             <a class="btn btn-outline-danger" href="inicio.php"><i class="fas fa-arrow-left fa-fw"></i>VOLTAR PARA A PÁGINA INICIAL</a>
         </div>
 
+        <!-- Realiza a importação do rodapé da página -->
+
+        <?php
+
+            require_once "rodape.php";
+
+        ?>
+
     </body>
-
-    <!-- Realiza a importação do rodapé da página -->
-
-    <?php
-
-        require_once "rodape.php";
-
-    ?>
 
 </html>

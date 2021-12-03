@@ -27,7 +27,7 @@
 
             }
 
-            #containerTitulo {
+            header {
 
                 margin: 20px 20px 0px 20px;
                 text-align: center;
@@ -64,44 +64,56 @@
 
             }
 
-            #grupoCriarGincana {
+            @media (min-width: 0px) and (max-width: 1199.98px) { 
+				
+				.btn {
 
-                margin-top: 10px;
+					width: 100%;
 
-            }
+				}
+
+                .btn:first-child {
+
+                    margin-bottom: 10px;
+
+                }
+
+			}
 
         </style>
 
     </head>
 
-    <!-- Realiza a importação da barra de navegação -->
-
-    <?php
-
-        require_once "barraNavegacao.php";
-
-    ?>
-
     <!-- Corpo da página -->
 
     <body>
 
-        <div id="containerTitulo">
+        <!-- Realiza a importação da barra de navegação -->
+
+        <?php
+
+            require_once "barraNavegacao.php";
+
+        ?>
+
+        <!-- Cabeçalho do corpo da página -->
+
+        <header>
             <h1>Minhas Gincanas</h1>
             <h1 class="display-6">2 gincanas foram criadas por você!</h1>
-            <span>Para ver as gincanas que você está participando, clique <a href="minhasGincanasParticipando.php">aqui</a>. <br> <strong>Selecione uma das opções abaixo para criar uma nova gincana:</strong></span>
-            <br>
-            <div id="grupoCriarGincana" class="btn-group" role="group" aria-label="Grupo de botões">
+            <p>Para ver as gincanas que você está participando, clique <a href="minhasGincanasParticipando.php">aqui</a>. <br> <strong>Selecione uma das opções abaixo para criar uma nova gincana:</strong></p>
+            <div class="btn-group" role="group" aria-label="Grupo de botões">
                 <button type="button" class="btn btn-outline-primary"><i class="fas fa-plus fa-fw"></i>GINCANA PESSOAL</button>
                 <button type="button" class="btn btn-outline-primary"><i class="fas fa-plus fa-fw"></i>GINCANA EMPRESARIAL</button>
             </div>
-        </div>
+        </header>
 
         <!-- Cards da página inicial -->
 
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-  	        <div class="col">
-    	        <div class="card text-center shadow-sm">
+        <main>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+  	            <div class="col">
+    	            <div class="card text-center shadow-sm">
       		        <img src="imagens/cards/example1.jpg" class="imgCard card-img-top" alt="...">
       		        <div class="card-body">
         		        <h3 class="card-title">Gincana #1</h3>
@@ -131,7 +143,7 @@
       		        <img src="imagens/cards/example2.jpg" class="imgCard card-img-top" alt="...">
       		        <div class="card-body">
         		        <h3 class="card-title">Gincana #2</h3>
-                        <h5 class="gincanaEncerrada"><i class="fas fa-clock fa-fw"></i>GINCANA ENCERRADA!</h5>
+                        <h5 class="gincanaEncerrada">GINCANA ENCERRADA!</h5>
                         <h6 class="card-subtitle mb-2 text-muted">Descrição</h6>
         		        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum nulla quae dolorem iusto id, cupiditate soluta quam, ab, dicta rerum iure nemo in quibusdam praesentium laudantium dolores. Rem, velit illum.</p>
                         <p>
@@ -152,14 +164,14 @@
   	        </div>
         </div>
 
+        <!-- Realiza a importação do rodapé da página -->
+
+        <?php
+
+            require_once "rodape.php";
+
+        ?>
+
     </body>
-
-    <!-- Realiza a importação do rodapé da página -->
-
-    <?php
-
-        require_once "rodape.php";
-
-    ?>
 
 </html>

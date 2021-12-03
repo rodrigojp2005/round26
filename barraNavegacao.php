@@ -5,7 +5,7 @@
 
 	.navbar-brand {
 
-		margin-right: 0px;
+		margin-right: 5px;
 
 	}
 
@@ -21,20 +21,24 @@
 		</button>
 		<div class="collapse navbar-collapse" id="barraNavegacao">
 			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-				<li class="nav-item">
-					<strong><a class="nav-link bolder" href="#"><i class="fas fa-user fa-fw"></i>Olá, usuário!</a></strong>
-				</li>
+			<li class="nav-item dropdown">
+          			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					  <i class="fas fa-user-circle"></i>NOME DO USUÁRIO
+          			</a>
+          			<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+					  	<li><h6 class="dropdown-header">Saldo</h6></li>
+						<li><span class="dropdown-item-text h5">651 pontos</span></li>
+						<li><hr class="dropdown-divider"></li>
+						<li><h6 class="dropdown-header">Configurações</h6></li>
+            			<li><a class="dropdown-item" href="#"><i class="fas fa-gamepad fa-fw"></i>Minhas Gincanas</a></li>
+            			<li><a class="dropdown-item" href="#"><i class="fas fa-map-marker-alt fa-fw"></i>Cidade</a></li>
+						<li><a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt fa-fw"></i>Sair</a></li>
+          			</ul>
+        		</li>
+
 			</ul>
 			<ul class="navbar-nav">
-				<li class="nav-item">
-					<a class="nav-link" href="#"><i class="fas fa-wallet fa-fw"></i>Saldo</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#"><i class="fas fa-map-marker-alt a-fw"></i>Cidade</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#"><i class="fas fa-gamepad fa-fw"></i>Minhas Gincanas</a>
-				</li>
+
 				<li class="nav-item">
 					<a class="btn btn-outline-primary" href="#"><i class="fas fa-sign-in-alt fa-fw"></i>ENTRAR / CADASTRAR</a>
 				</li>

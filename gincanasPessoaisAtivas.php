@@ -15,7 +15,7 @@
 
         <!-- Título da página -->
 
-        <title>Gincanas Empresariais Ativas - Round26</title>
+        <title>Gincanas Pessoais Ativas - Round26</title>
 
         <!-- CSS -->
 
@@ -87,14 +87,14 @@
         <!-- Cabeçalho do corpo da página -->
 
         <header>
-            <h1>Gincanas Empresariais Ativas</h1>
-            <h1 class="display-6">3 gincanas empresariais estão ativas em sua cidade</h1>
-            <span>Clique <a href="#">aqui</a> para acessar as <strong>gincanas pessoais ativas</strong>.</span>
+            <h1>Gincanas Pessoais Ativas</h1>
+            <h1 class="display-6">3 gincanas pessoais estão ativas em sua cidade</h1>
+            <span>Clique <a href="#">aqui</a> para acessar as <strong>gincanas empresariais ativas</strong>.</span>
             <p>Clique no botão abaixo para criar uma nova gincana!</p>
-            <a class="btn btn-outline-primary"><i class="fas fa-plus fa-fw"></i>CRIAR GINCANA EMPRESARIAL</a>
+            <a class="btn btn-outline-primary"><i class="fas fa-plus fa-fw"></i>CRIAR GINCANA PESSOAL</a>
         </header>
 
-        <!-- Cards das gincanas empresariais -->
+        <!-- Cards das gincanas pessoais -->
         
         <main>
             <div class="row row-cols-1 row-cols-md-3 g-4">
