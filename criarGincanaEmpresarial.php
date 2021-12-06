@@ -265,7 +265,7 @@
                 </div>
                 <div class="mb-3 text-center">
                     <input type="submit" class="btn btn-primary" value="CADASTRAR GINCANA"></input>  
-                    <a class="btn btn-outline-danger" href="inicio.php"><i class="fas fa-arrow-left fa-fw"></i>VOLTAR PARA A PÁGINA INICIAL</a>
+                    <a class="btn btn-outline-danger" href="#"><i class="fas fa-arrow-left fa-fw"></i>VOLTAR PARA A PÁGINA INICIAL</a>
                 </div>         
             </form>
         </main>

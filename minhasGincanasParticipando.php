@@ -52,7 +52,7 @@
 
             }
 
-            .imgCard {
+            .imagemDestaqueCard {
 
                 height: 350px;
 
@@ -63,6 +63,22 @@
                 color: red;
 
             }
+
+            @media (min-width: 0px) and (max-width: 1199.98px) { 
+				
+				.btn {
+
+					width: 100%;
+
+				}
+
+                .card-body .btn {
+
+                    margin-top: 5px;
+
+                }
+
+			}
 
         </style>
 
@@ -85,19 +101,19 @@
         <header>
             <h1>Minhas Gincanas</h1>
             <h1 class="display-6">Você está participando de 2 gincanas!</h1>
-            <p>Para ver as gincanas que você criou, clique <a href="minhasGincanasCriadas.php">aqui</a>.</p>
+            <p>Para ver as gincanas que você criou, clique <a href="#">aqui</a>.</p>
         </header>
 
-        <!-- Cards da página inicial -->
+        <!-- Cards das gincanas que eu participo -->
 
         <main>
             <div class="row row-cols-1 row-cols-md-3 g-4">
   	            <div class="col">
     	            <div class="card text-center shadow-sm">
-      		            <img src="imagens/cards/example1.jpg" class="imgCard card-img-top" alt="...">
+      		            <img src="imagens/cards/example1.jpg" class="imagemDestaqueCard card-img-top" alt="...">
       		            <div class="card-body">
         		            <h3 class="card-title">Gincana #1</h3>
-                            <h5><i class="fas fa-clock fa-fw"></i>00:00:00</h5>
+                            <h5><i class="fas fa-stopwatch fa-fw"></i>00:00:00</h5>
                             <h6 class="card-subtitle mb-2 text-muted">Descrição</h6>
         		            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum nulla quae dolorem iusto id, cupiditate soluta quam, ab, dicta rerum iure nemo in quibusdam praesentium laudantium dolores. Rem, velit illum.</p>
                             <p>
@@ -109,18 +125,18 @@
                                     Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
                                 </div>
                             </div>
-                            <a class="btn btn-primary"><i class="fas fa-ticket-alt fa-fw"></i>GERAR CUPOM</a>
                             <a class="btn btn-primary"><i class="fas fa-gamepad fa-fw"></i>JOGAR</a>
-                            <a class="btn btn-primary segundaLinhaBotoes"><i class="fas fa-medal fa-fw"></i>RANKING</a>
+                            <a class="btn btn-primary"><i class="fas fa-medal fa-fw"></i>RANKING</a>
+                            <a class="btn btn-primary segundaLinhaBotoes"><i class="fas fa-ticket-alt fa-fw"></i>GERAR CUPOM</a>
 			            </div>
     	            </div>
                 </div>
                 <div class="col">
     	            <div class="card text-center shadow-sm">
-      		            <img src="imagens/cards/example2.jpg" class="imgCard card-img-top" alt="...">
+      		            <img src="imagens/cards/example2.jpg" class="imagemDestaqueCard card-img-top" alt="...">
       		            <div class="card-body">
         		            <h3 class="card-title">Gincana #2</h3>
-                            <h5 class="gincanaEncerrada"><i class="fas fa-clock fa-fw"></i>GINCANA ENCERRADA!</h5>
+                            <h5 class="gincanaEncerrada"><i class="fas fa-stopwatch fa-fw"></i>GINCANA ENCERRADA!</h5>
                             <h6 class="card-subtitle mb-2 text-muted">Descrição</h6>
         		            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum nulla quae dolorem iusto id, cupiditate soluta quam, ab, dicta rerum iure nemo in quibusdam praesentium laudantium dolores. Rem, velit illum.</p>
                             <p>
@@ -132,8 +148,8 @@
                                     Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
                                 </div>
                             </div>
-                            <a class="btn btn-success"><i class="fas fa-check fa-fw"></i>CUPOM GERADO!</a>
                             <a class="btn btn-primary"><i class="fas fa-medal fa-fw"></i>RANKING</a>
+                            <a class="btn btn-success"><i class="fas fa-check fa-fw"></i>CUPOM JÁ RESGATADO!</a>
 			            </div>
     	            </div>
   	            </div>

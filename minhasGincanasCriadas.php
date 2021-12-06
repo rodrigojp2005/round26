@@ -52,7 +52,7 @@
 
             }
 
-            .imgCard {
+            .imagemDestaqueCard {
 
                 height: 350px;
 
@@ -72,9 +72,9 @@
 
 				}
 
-                .btn:first-child {
+                .card-body .btn {
 
-                    margin-bottom: 10px;
+                    margin-top: 5px;
 
                 }
 
@@ -101,23 +101,23 @@
         <header>
             <h1>Minhas Gincanas</h1>
             <h1 class="display-6">2 gincanas foram criadas por você!</h1>
-            <p>Para ver as gincanas que você está participando, clique <a href="minhasGincanasParticipando.php">aqui</a>. <br> <strong>Selecione uma das opções abaixo para criar uma nova gincana:</strong></p>
+            <p>Para ver as gincanas que você está participando, clique <a href="#">aqui</a>. <br> <strong>Selecione uma das opções abaixo para criar uma nova gincana:</strong></p>
             <div class="btn-group" role="group" aria-label="Grupo de botões">
                 <button type="button" class="btn btn-outline-primary"><i class="fas fa-plus fa-fw"></i>GINCANA PESSOAL</button>
                 <button type="button" class="btn btn-outline-primary"><i class="fas fa-plus fa-fw"></i>GINCANA EMPRESARIAL</button>
             </div>
         </header>
 
-        <!-- Cards da página inicial -->
+        <!-- Cards da minhas gincanas criadas -->
 
         <main>
             <div class="row row-cols-1 row-cols-md-3 g-4">
   	            <div class="col">
     	            <div class="card text-center shadow-sm">
-      		        <img src="imagens/cards/example1.jpg" class="imgCard card-img-top" alt="...">
+      		        <img src="imagens/cards/example1.jpg" class="imagemDestaqueCard card-img-top" alt="...">
       		        <div class="card-body">
         		        <h3 class="card-title">Gincana #1</h3>
-                        <h5><i class="fas fa-clock fa-fw"></i>00:00:00</h5>
+                        <h5><i class="fas fa-stopwatch fa-fw"></i>00:00:00</h5>
                         <h6 class="card-subtitle mb-2 text-muted">Descrição</h6>
         		        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum nulla quae dolorem iusto id, cupiditate soluta quam, ab, dicta rerum iure nemo in quibusdam praesentium laudantium dolores. Rem, velit illum.</p>
                         <p>
@@ -129,18 +129,17 @@
                                 Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
                             </div>
                         </div>
-                        <a class="btn btn-dark"><i class="fas fa-info-circle fa-fw"></i>SOBRE</a>
-                        <a class="btn btn-dark"><i class="fas fa-edit fa-fw"></i>EDITAR</a>
-                        <a class="btn btn-danger"><i class="fas fa-trash fa-fw"></i>EXCLUIR</a>
+                        <a class="btn btn-primary"><i class="fas fa-eye fa-fw"></i>VISUALIZAR</a>
+                        <a class="btn btn-primary"><i class="fas fa-medal fa-fw"></i>RANKING</a>
                         <br>
-                        <a class="btn btn-primary segundaLinhaBotoes"><i class="fas fa-eye fa-fw"></i>VISUALIZAR</a>
-                        <a class="btn btn-primary segundaLinhaBotoes"><i class="fas fa-medal fa-fw"></i>RANKING</a>
+                        <a class="btn btn-secondary segundaLinhaBotoes"><i class="fas fa-edit fa-fw"></i>EDITAR</a>
+                        <a class="btn btn-danger segundaLinhaBotoes"><i class="fas fa-trash fa-fw"></i>EXCLUIR</a>
 			        </div>
     	        </div>
   	        </div>
             <div class="col">
     	        <div class="card text-center shadow-sm">
-      		        <img src="imagens/cards/example2.jpg" class="imgCard card-img-top" alt="...">
+      		        <img src="imagens/cards/example2.jpg" class="imagemDestaqueCard card-img-top" alt="...">
       		        <div class="card-body">
         		        <h3 class="card-title">Gincana #2</h3>
                         <h5 class="gincanaEncerrada">GINCANA ENCERRADA!</h5>
@@ -155,10 +154,9 @@
                                 Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
                             </div>
                         </div>
-                        <a class="btn btn-dark"><i class="fas fa-info-circle fa-fw"></i>SOBRE</a>
-                        <a class="btn btn-dark"><i class="fas fa-edit fa-fw"></i>EDITAR</a>
+                        <a class="btn btn-primary"><i class="fas fa-medal fa-fw"></i>RANKING</a>
+                        <a class="btn btn-secondary"><i class="fas fa-edit fa-fw"></i>EDITAR</a>
                         <a class="btn btn-danger"><i class="fas fa-trash fa-fw"></i>EXCLUIR</a>
-                        <a class="btn btn-primary segundaLinhaBotoes"><i class="fas fa-medal fa-fw"></i>RANKING</a>
 			        </div>
     	        </div>
   	        </div>

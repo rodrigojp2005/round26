@@ -33,7 +33,7 @@
 
             }
 
-            .imgCard {
+            .imagemDestaqueCard {
 
                 height: 375px;
 
@@ -59,12 +59,6 @@
 					width: 100%;
 
 				}
-
-                .btn:first-child {
-
-                    margin-bottom: 10px;
-
-                }
 
 			}
 
@@ -100,10 +94,10 @@
             <div class="row row-cols-1 row-cols-md-3 g-4">
   	            <div class="col">
     	            <div class="card text-center shadow-sm">
-      		            <img src="imagens/cards/example1.jpg" class="imgCard card-img-top" alt="...">
+      		            <img src="imagens/cards/example1.jpg" class="imagemDestaqueCard card-img-top" alt="...">
       		            <div class="card-body">
         		            <h3 class="card-title">Gincana #1</h3>
-                            <h5><i class="fas fa-clock fa-fw"></i>00:00:00</h5>
+                            <h5><i class="fas fa-stopwatch fa-fw"></i>00:00:00</h5>
                             <h6 class="card-subtitle mb-2 text-muted">Descrição</h6>
         		            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus non voluptatem aut corporis ratione, ducimus iste placeat corrupti nesciunt tempora! Autem tempora perferendis voluptatem tenetur necessitatibus ad harum iste asperiores?</p>
 				            <p>
@@ -121,10 +115,10 @@
   	            </div>
   	            <div class="col">
     	            <div class="card text-center shadow-sm">
-      		            <img src="imagens/cards/example2.jpg" class="imgCard card-img-top" alt="...">
+      		            <img src="imagens/cards/example2.jpg" class="imagemDestaqueCard card-img-top" alt="...">
       		            <div class="card-body">
         		            <h3 class="card-title">Gincana #2</h3>
-                            <h5><i class="fas fa-clock fa-fw"></i>00:00:00</h5>
+                            <h5><i class="fas fa-stopwatch fa-fw"></i>00:00:00</h5>
                             <h6 class="card-subtitle mb-2 text-muted">Descrição</h6>
         		            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias voluptates odio voluptatibus asperiores vitae laborum nihil provident dolores aliquid magni? Nulla, officia earum aliquid odio culpa eaque quidem reiciendis. Est?</p>
 				            <p>
@@ -142,10 +136,10 @@
   	            </div>
   	            <div class="col">
     	            <div class="card text-center shadow-sm">
-      		            <img src="imagens/cards/example3.jpg" class="imgCard card-img-top" alt="...">
+      		            <img src="imagens/cards/example3.jpg" class="imagemDestaqueCard card-img-top" alt="...">
       		            <div class="card-body">
         		            <h3 class="card-title">Gincana #3</h3>
-                            <h5><i class="fas fa-clock fa-fw"></i>00:00:00</h5>
+                            <h5><i class="fas fa-stopwatch fa-fw"></i>00:00:00</h5>
                             <h6 class="card-subtitle mb-2 text-muted">Descrição</h6>
         		            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore delectus deserunt expedita excepturi deleniti possimus magni accusantium qui fugiat asperiores, ipsam, unde repellendus maxime corrupti id inventore fuga. Quibusdam, distinctio?</p>
 				            <p>

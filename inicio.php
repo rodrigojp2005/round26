@@ -33,7 +33,7 @@
 
             }
 
-            .imgCard {
+            .imagemDestaqueCard {
 
                 height: 375px;
 
@@ -46,7 +46,7 @@
 
             }
 
-            .imgBanner {
+            .imagemBanner {
 
                 height: 500px;
 
@@ -90,13 +90,13 @@
         		</div>
 	       	 	<div class="carousel-inner">
             		<div class="carousel-item active">
-      		        	<img src="imagens/carrosselInformativo/example1.jpg" class="imgBanner d-block w-100" alt="...">
+      		        	<img src="imagens/carrosselInformativo/example1.jpg" class="imagemBanner d-block w-100" alt="...">
     	        	</div>
     	        	<div class="carousel-item">
-      		        	<img src="imagens/carrosselInformativo/example2.jpg" class="imgBanner d-block w-100" alt="...">
+      		        	<img src="imagens/carrosselInformativo/example2.jpg" class="imagemBanner d-block w-100" alt="...">
     	        	</div>
     	        	<div class="carousel-item">
-      		        	<img src="imagens/carrosselInformativo/example3.jpg" class="imgBanner d-block w-100" alt="...">
+      		        	<img src="imagens/carrosselInformativo/example3.jpg" class="imagemBanner d-block w-100" alt="...">
     	        	</div>
   	        	</div>
   	        	<button class="carousel-control-prev" type="button" data-bs-target="#carrosselInformativo" data-bs-slide="prev">
@@ -114,7 +114,7 @@
        	 	<div class="row row-cols-1 row-cols-md-3 g-4">
   	       	 	<div class="col">
     	        	<div class="card text-center h-100 shadow-sm">
-      		        	<img src="imagens/cards/example1.jpg" class="imgCard card-img-top" alt="...">
+      		        	<img src="imagens/cards/example1.jpg" class="imagemDestaqueCard card-img-top" alt="...">
       		        	<div class="card-body">
         		        	<h3 class="card-title">Gincanas Empresariais</h3>
         		        	<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum nulla quae dolorem iusto id, cupiditate soluta quam, ab, dicta rerum iure nemo in quibusdam praesentium laudantium dolores. Rem, velit illum.</p>
@@ -124,7 +124,7 @@
   	       		</div>
   	        	<div class="col">
     	        	<div class="card text-center h-100 shadow-sm">
-      		        	<img src="imagens/cards/example2.jpg" class="imgCard card-img-top" alt="...">
+      		        	<img src="imagens/cards/example2.jpg" class="imagemDestaqueCard card-img-top" alt="...">
       			        <div class="card-body">
         			        <h3 class="card-title">Gincanas Pessoais</h3>
         			        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique ea expedita exercitationem commodi atque eius et perspiciatis accusantium obcaecati ad officia, illo, nostrum dicta quidem voluptate, vero at qui! Officia!</p>
@@ -134,7 +134,7 @@
   		        </div>
   	        	<div class="col">
     	        	<div class="card text-center h-100 shadow-sm">
-      		        	<img src="imagens/cards/example3.jpg" class="imgCard card-img-top" alt="...">
+      		        	<img src="imagens/cards/example3.jpg" class="imagemDestaqueCard card-img-top" alt="...">
       			        <div class="card-body">
         			        <h3 class="card-title">Criar Gincana</h3>
         			        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi saepe nemo soluta sit sequi error natus, omnis fuga, quos, beatae animi. Hic eum velit voluptatum optio laudantium sapiente labore voluptates!</p>

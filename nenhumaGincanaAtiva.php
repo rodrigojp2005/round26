@@ -34,7 +34,7 @@
 
             }
 
-            .imgCard {
+            .imagemDestaqueCard {
 
                 height: 350px;
 
@@ -44,6 +44,8 @@
 
                 text-align: center;
                 margin-bottom: 20px;
+                margin-left: 20px;
+                margin-right: 20px;
 
             }
 
@@ -52,6 +54,16 @@
                 margin-right: 5px;
 
             }
+
+            @media (min-width: 0px) and (max-width: 1199.98px) { 
+				
+				.btn {
+
+					width: 100%;
+
+				}
+
+			}
 
         </style>
 
@@ -82,7 +94,7 @@
             <div class="row row-cols-1 row-cols-md-2 g-4">
   	            <div class="col">
     	            <div class="card text-center h-100 shadow-sm">
-      		            <img src="imagens/cards/example1.jpg" class="imgCard card-img-top" alt="...">
+      		            <img src="imagens/cards/example1.jpg" class="imagemDestaqueCard card-img-top" alt="...">
       		            <div class="card-body">
         		            <h3 class="card-title">Gincanas Empresariais</h3>
         		            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis molestias beatae recusandae, vel laudantium odio deserunt eum nam voluptate incidunt in pariatur sapiente iure minima esse ipsum quisquam expedita exercitationem.</p>
@@ -92,7 +104,7 @@
   	            </div>
   	            <div class="col">
     	            <div class="card text-center h-100 shadow-sm">
-      		            <img src="imagens/cards/example2.jpg" class="imgCard card-img-top" alt="...">
+      		            <img src="imagens/cards/example2.jpg" class="imagemDestaqueCard card-img-top" alt="...">
       			        <div class="card-body">
         			        <h3 class="card-title">Gincanas Pessoais</h3>
         			        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore maiores ex aspernatur omnis iure, a veritatis consectetur eveniet quo officia quia vero natus, reprehenderit et optio sed ab saepe reiciendis!</p>
@@ -106,7 +118,7 @@
         <!-- Botão de retorno -->
         
         <div id="containerBotaoVoltar">
-            <a class="btn btn-outline-danger" href="inicio.php"><i class="fas fa-arrow-left fa-fw"></i>VOLTAR PARA A PÁGINA INICIAL</a>
+            <a class="btn btn-outline-danger" href="#"><i class="fas fa-arrow-left fa-fw"></i>VOLTAR PARA A PÁGINA INICIAL</a>
         </div>
 
         <!-- Realiza a importação do rodapé da página -->

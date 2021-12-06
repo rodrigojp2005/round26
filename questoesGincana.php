@@ -40,7 +40,7 @@
 
             }
 
-            .imgCard {
+            .imagemDestaqueCard {
 
                 height: 325px;
 
@@ -118,7 +118,7 @@
             <div class="row row-cols-1 row-cols-md-3 g-4">
   	            <div class="col">
     	            <div class="card text-center shadow-sm">
-      		            <img src="imagens/cards/example1.jpg" class="imgCard card-img-top" alt="...">
+      		            <img src="imagens/cards/example1.jpg" class="imagemDestaqueCard card-img-top" alt="...">
       		            <div class="card-body">
         		            <h4 class="card-title">Questão #1</h4>
             		        <p class="card-text">
@@ -134,7 +134,7 @@
   	            </div>
   	            <div class="col">
     	            <div class="card text-center shadow-sm">
-      		            <img src="imagens/cards/example2.jpg" class="imgCard card-img-top" alt="...">
+      		            <img src="imagens/cards/example2.jpg" class="imagemDestaqueCard card-img-top" alt="...">
       			        <div class="card-body">
                             <h4 class="card-title">Questão #2</h4>
         		            <p class="card-text">
@@ -150,7 +150,7 @@
   		        </div>
   	            <div class="col">
     	            <div class="card text-center shadow-sm">
-      		            <img src="imagens/cards/example3.jpg" class="imgCard card-img-top" alt="...">
+      		            <img src="imagens/cards/example3.jpg" class="imagemDestaqueCard card-img-top" alt="...">
       			        <div class="card-body">
                             <h4 class="card-title">Questão #3</h4>
         		            <p class="card-text">

@@ -34,7 +34,7 @@
 
             }
 
-            main {
+            #formulario {
 
                 margin: 20px;
 
@@ -75,14 +75,14 @@
         <!-- Cabeçalho do corpo da página -->
 
         <header>
-            <h1 class="display-5">Criação de Gincanas Pessoais</h1>
+            <h1>Criação de Gincanas Pessoais</h1>
             <h1 class="display-6">Digite abaixo as informações da nova gincana:</h1>
         </header>
 
         <!-- Campos de entrada para criação de Gincanas Pessoais -->
 
         <main>
-            <form class="row g-3 align-items-center d-flex justify-content-center">
+            <form class="row g-3 align-items-center d-flex justify-content-center" id="formulario">
                 <div class="mb-3">
                     <label for="inputCNPJ" class="form-label h5">Pergunta</label>
                     <input type="text" class="form-control" id="inputCNPJ" aria-describedby="textoCNPJ" required>
@@ -101,26 +101,26 @@
                 <div class="mb-3">
                     <label for="inputAlternativa3" class="form-label h5">3ª alternativa</label>
                     <input type="text" class="form-control" id="inputAlternativa3" aria-describedby="textoAlternativa3">
-                    <div id="textoAlternativa3" class="form-text">Informe a terceira alternativa. <strong>Observação: </strong>este campo é opcional.</div>
+                    <div id="textoAlternativa3" class="form-text">Informe a terceira alternativa. <strong>Observação: </strong>esse campo é opcional.</div>
                 </div>
                 <div class="mb-3">
                     <label for="inputImagem" class="form-label h5">Imagem de destaque</label>
                     <input class="form-control" type="file" id="inputImagem">
-                    <div id="textoImagem" class="form-text">Este campo é opcional.</div>
+                    <div id="textoImagem" class="form-text">Esse campo é opcional.</div>
                 </div>
                 <div class="mb-3">
                     <label class="form-label h5" id="selectLabel">Gabarito</label>
                     <select class="form-select" aria-labelledby="selectLabel">
                         <option selected>Selecione uma opção...</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
+                        <option value="1">1ª alternativa</option>
+                        <option value="2">2ª alternativa</option>
+                        <option value="3">3ª alternativa</option>
                     </select>
                     <div id="textoSelect" class="form-text">Escolha a alternativa correta.</div>
                 </div>
                 <div class="mb-3 text-center">
                     <input type="submit" class="btn btn-primary" value="CADASTRAR GINCANA"></input>  
-                    <a class="btn btn-outline-danger" href="inicio.php"><i class="fas fa-arrow-left fa-fw"></i>VOLTAR PARA A PÁGINA INICIAL</a>
+                    <a class="btn btn-outline-danger" href="#"><i class="fas fa-arrow-left fa-fw"></i>VOLTAR PARA A PÁGINA INICIAL</a>
                 </div>  
             </form>
         </main>

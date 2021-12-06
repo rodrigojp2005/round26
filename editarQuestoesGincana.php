@@ -60,7 +60,7 @@
 
 				}
 
-                .formatacaoEspecial {
+                .card-body .btn-primary {
 
                     margin-bottom: 10px;
 
@@ -101,15 +101,16 @@
     	            <div class="card text-center shadow-sm">
       		            <img src="imagens/cards/example1.jpg" class="imgCard card-img-top" alt="...">
       		            <div class="card-body">
-        		            <h4 class="card-title">Questão #1</h4>
+        		            <h3 class="card-title">Questão #1</h3>
             		        <p class="card-text">
+                                Atualmente, essa questão possui as seguintes alternativas disponíveis para responder:
                                 <ul class="listagemAlternativas">
                                     <li>Alternativa...</li>
                                     <li>Alternativa...</li>
                                     <li>Alternativa...</li>
                                 </ul>
                             </p>
-                            <a class="btn btn-primary formatacaoEspecial"><i class="fas fa-edit fa-fw"></i>EDITAR</a>
+                            <a class="btn btn-primary"><i class="fas fa-edit fa-fw"></i>EDITAR</a>
                             <a class="btn btn-danger"><i class="fas fa-trash fa-fw"></i>EXCLUIR</a>
 			            </div>
     	            </div>
@@ -118,15 +119,16 @@
     	            <div class="card text-center shadow-sm">
       		            <img src="imagens/cards/example2.jpg" class="imgCard card-img-top" alt="...">
       			        <div class="card-body">
-                            <h4 class="card-title">Questão #2</h4>
+                            <h3 class="card-title">Questão #2</h3>
         		            <p class="card-text">
+                                Atualmente, essa questão possui as seguintes alternativas disponíveis para responder:
                                 <ul class="listagemAlternativas">
                                     <li>Alternativa...</li>
                                     <li>Alternativa...</li>
                                     <li>Alternativa...</li>
                                 </ul>
                             </p>
-                            <a class="btn btn-primary formatacaoEspecial"><i class="fas fa-edit fa-fw"></i>EDITAR</a>
+                            <a class="btn btn-primary"><i class="fas fa-edit fa-fw"></i>EDITAR</a>
                             <a class="btn btn-danger"><i class="fas fa-trash fa-fw"></i>EXCLUIR</a>
 				        </div>
     		        </div>
@@ -135,15 +137,16 @@
     	            <div class="card text-center shadow-sm">
       		            <img src="imagens/cards/example3.jpg" class="imgCard card-img-top" alt="...">
       			        <div class="card-body">
-                            <h4 class="card-title">Questão #3</h4>
+                            <h3 class="card-title">Questão #3</h3>
         		            <p class="card-text">
+                                Atualmente, essa questão possui as seguintes alternativas disponíveis para responder:
                                 <ul class="listagemAlternativas">
                                     <li>Alternativa...</li>
                                     <li>Alternativa...</li>
                                     <li>Alternativa...</li>
                                 </ul>
                             </p>
-                            <a class="btn btn-primary formatacaoEspecial"><i class="fas fa-edit fa-fw"></i>EDITAR</a>
+                            <a class="btn btn-primary"><i class="fas fa-edit fa-fw"></i>EDITAR</a>
                             <a class="btn btn-danger"><i class="fas fa-trash fa-fw"></i>EXCLUIR</a>
 				        </div>
     		        </div>
