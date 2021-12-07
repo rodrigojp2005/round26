@@ -15,7 +15,7 @@
 
         <!-- Título da página -->
 
-        <title>Início - Round26</title>
+        <title formatacaoDestaque>Início - Round26</title formatacaoDestaque>
 
         <!-- CSS -->
 
@@ -116,9 +116,9 @@
     	        	<div class="card text-center h-100 shadow-sm">
       		        	<img src="imagens/cards/example1.jpg" class="imagemDestaqueCard card-img-top" alt="...">
       		        	<div class="card-body">
-        		        	<h3 class="card-title">Gincanas Empresariais</h3>
+        		        	<h3 class="card-title formatacaoDestaque">Gincanas Empresariais</h3>
         		        	<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum nulla quae dolorem iusto id, cupiditate soluta quam, ab, dicta rerum iure nemo in quibusdam praesentium laudantium dolores. Rem, velit illum.</p>
-				        	<a class="btn btn-primary"><i class="fas fa-gamepad fa-fw"></i>DISPUTAR JOGOS</a>
+				        	<a class="btn btn-primary formatacaoDestaque"><i class="fas fa-gamepad fa-fw"></i>DISPUTAR JOGOS</a>
 			        	</div>
     	        	</div>
   	       		</div>
@@ -126,9 +126,9 @@
     	        	<div class="card text-center h-100 shadow-sm">
       		        	<img src="imagens/cards/example2.jpg" class="imagemDestaqueCard card-img-top" alt="...">
       			        <div class="card-body">
-        			        <h3 class="card-title">Gincanas Pessoais</h3>
+        			        <h3 class="card-title formatacaoDestaque">Gincanas Pessoais</h3>
         			        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique ea expedita exercitationem commodi atque eius et perspiciatis accusantium obcaecati ad officia, illo, nostrum dicta quidem voluptate, vero at qui! Officia!</p>
-					        <a class="btn btn-primary"><i class="fas fa-gamepad fa-fw"></i>DISPUTAR JOGOS</a>
+					        <a class="btn btn-primary formatacaoDestaque"><i class="fas fa-gamepad fa-fw"></i>DISPUTAR JOGOS</a>
 				        </div>
     		        </div>
   		        </div>
@@ -136,9 +136,9 @@
     	        	<div class="card text-center h-100 shadow-sm">
       		        	<img src="imagens/cards/example3.jpg" class="imagemDestaqueCard card-img-top" alt="...">
       			        <div class="card-body">
-        			        <h3 class="card-title">Criar Gincana</h3>
+        			        <h3 class="card-title formatacaoDestaque">Criar Gincana</h3>
         			        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi saepe nemo soluta sit sequi error natus, omnis fuga, quos, beatae animi. Hic eum velit voluptatum optio laudantium sapiente labore voluptates!</p>
-					        <a class="btn btn-primary"><i class="fas fa-plus fa-fw"></i>CRIAR JOGOS</a>
+					        <a class="btn btn-primary formatacaoDestaque"><i class="fas fa-plus fa-fw"></i>CRIAR JOGOS</a>
 				        </div>
     		        </div>
   		        </div>

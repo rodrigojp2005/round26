@@ -34,6 +34,12 @@
 
             }
 
+            header p {
+
+                margin: 0px;
+
+            }
+
             .row {
 
                 margin: 0px 20px 20px 20px;
@@ -99,8 +105,8 @@
         <!-- Cabeçalho do corpo da página -->
 
         <header>
-            <h1>Minhas Gincanas</h1>
-            <h1 class="display-6">Você está participando de 2 gincanas!</h1>
+            <h1 class="formatacaoDestaque">Minhas Gincanas</h1>
+            <h3>Você está participando de 2 gincanas!</h3>
             <p>Para ver as gincanas que você criou, clique <a href="#">aqui</a>.</p>
         </header>
 
@@ -112,22 +118,22 @@
     	            <div class="card text-center shadow-sm">
       		            <img src="imagens/cards/example1.jpg" class="imagemDestaqueCard card-img-top" alt="...">
       		            <div class="card-body">
-        		            <h3 class="card-title">Gincana #1</h3>
+        		            <h3 class="card-title formatacaoDestaque">Gincana #1</h3>
                             <h5><i class="fas fa-stopwatch fa-fw"></i>00:00:00</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Descrição</h6>
+                            <p class="card-subtitle mb-2"><strong>Descrição</strong></p>
         		            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum nulla quae dolorem iusto id, cupiditate soluta quam, ab, dicta rerum iure nemo in quibusdam praesentium laudantium dolores. Rem, velit illum.</p>
                             <p>
                                 <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRegrasGincana1" aria-expanded="false" aria-controls="collapseRegrasGincana1"><i class="fas fa-chevron-down fa-fw"></i><strong>CLIQUE PARA VER MAIS</strong></button>
                             </p>
                             <div class="collapse collapseRegras" id="collapseRegrasGincana1">
                                 <div class="card card-body">
-                                    <h6 class="card-subtitle mb-2 text-muted">Regras</h6>
+                                    <p class="card-subtitle mb-2"><strong>Regras</strong></p>
                                     Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
                                 </div>
                             </div>
-                            <a class="btn btn-primary"><i class="fas fa-gamepad fa-fw"></i>JOGAR</a>
-                            <a class="btn btn-primary"><i class="fas fa-medal fa-fw"></i>RANKING</a>
-                            <a class="btn btn-primary segundaLinhaBotoes"><i class="fas fa-ticket-alt fa-fw"></i>GERAR CUPOM</a>
+                            <a class="btn btn-primary formatacaoDestaque"><i class="fas fa-gamepad fa-fw"></i>JOGAR</a>
+                            <a class="btn btn-primary formatacaoDestaque"><i class="fas fa-medal fa-fw"></i>RANKING</a>
+                            <a class="btn btn-primary segundaLinhaBotoes formatacaoDestaque"><i class="fas fa-ticket-alt fa-fw"></i>GERAR CUPOM</a>
 			            </div>
     	            </div>
                 </div>
@@ -135,21 +141,21 @@
     	            <div class="card text-center shadow-sm">
       		            <img src="imagens/cards/example2.jpg" class="imagemDestaqueCard card-img-top" alt="...">
       		            <div class="card-body">
-        		            <h3 class="card-title">Gincana #2</h3>
+        		            <h3 class="card-title formatacaoDestaque">Gincana #2</h3>
                             <h5 class="gincanaEncerrada"><i class="fas fa-stopwatch fa-fw"></i>GINCANA ENCERRADA!</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Descrição</h6>
+                            <p class="card-subtitle mb-2"><strong>Descrição</strong></p>
         		            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum nulla quae dolorem iusto id, cupiditate soluta quam, ab, dicta rerum iure nemo in quibusdam praesentium laudantium dolores. Rem, velit illum.</p>
                             <p>
                                 <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRegrasGincana2" aria-expanded="false" aria-controls="collapseRegrasGincana2"><i class="fas fa-chevron-down fa-fw"></i><strong>CLIQUE PARA VER MAIS</strong></button>
                             </p>
                             <div class="collapse collapseRegras" id="collapseRegrasGincana2">
                                 <div class="card card-body">
-                                    <h6 class="card-subtitle mb-2 text-muted">Regras</h6>
+                                    <p class="card-subtitle mb-2"><strong>Regras</strong></p>
                                     Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
                                 </div>
                             </div>
-                            <a class="btn btn-primary"><i class="fas fa-medal fa-fw"></i>RANKING</a>
-                            <a class="btn btn-success"><i class="fas fa-check fa-fw"></i>CUPOM JÁ RESGATADO!</a>
+                            <a class="btn btn-primary formatacaoDestaque"><i class="fas fa-medal fa-fw"></i>RANKING</a>
+                            <a class="btn btn-success formatacaoDestaque"><i class="fas fa-check fa-fw"></i>CUPOM JÁ RESGATADO!</a>
 			            </div>
     	            </div>
   	            </div>

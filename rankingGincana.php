@@ -56,7 +56,7 @@
             #containerBotaoVoltar {
 
                 text-align: center;
-                margin: 0px 20px 0px 20px;
+                margin: 0px 20px 20px 20px;
 
             }
 
@@ -95,8 +95,8 @@
         <!-- Cabeçalho do corpo da página -->
 
         <header>
-            <h1>Ranking de Gincana</h1>
-            <h1 class="display-6">4 usuários estão participando dessa gincana!</h1>
+            <h1 class="formatacaoDestaque">Ranking de Gincana</h1>
+            <h3>4 usuários estão participando dessa gincana!</h3>
             <p><strong>Lembrando: </strong>os mais bem colocados ganham prêmios!!!</p>
         </header>
 
@@ -119,14 +119,14 @@
                         <td>Ana Joanna</td>
                         <td>20</td>
                         <td>100% (R$ 20,00)</td>
-                        <td><a class="btn btn-primary"><i class="fas fa-ticket-alt fa-fw"></i>RESGATAR CUPOM</a></td>
+                        <td><a class="btn formatacaoDestaque"><i class="fas fa-ticket-alt fa-fw"></i>RESGATAR CUPOM</a></td>
                     </tr>
                     <tr>
                         <th scope="row"><i class="fas fa-trophy fa-fw" style="color: silver;"></i></th>
                         <td>Bob Roberto</td>
                         <td>19</td>
                         <td>90% (R$ 19,00)</td>
-                        <td><a class="btn btn-primary"><i class="fas fa-ticket-alt fa-fw"></i>RESGATAR CUPOM</a></td>
+                        <td><a class="btn formatacaoDestaque"><i class="fas fa-ticket-alt fa-fw"></i>RESGATAR CUPOM</a></td>
                     </tr>
                     <tr>
                         <th scope="row"><i class="fas fa-trophy fa-fw" style="color: #B87333;"></i></th>
@@ -149,7 +149,7 @@
         <!-- Botão de retorno -->
         
         <div id="containerBotaoVoltar">
-            <a class="btn btn-outline-danger" href="#"><i class="fas fa-arrow-left fa-fw"></i>VOLTAR PARA A PÁGINA DAS GINCANAS ATIVAS</a>
+            <a class="btn btn-outline-danger formatacaoDestaque" href="#"><i class="fas fa-arrow-left fa-fw"></i>VOLTAR PARA A PÁGINA DE GINCANAS ATIVAS</a>
         </div>
 
         <!-- Realiza a importação do rodapé da página -->

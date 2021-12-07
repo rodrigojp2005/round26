@@ -78,6 +78,12 @@
 
                 }
 
+                #botaoCriarGincanaPessoal {
+
+                    margin-bottom: 5px;
+
+                }
+
 			}
 
         </style>
@@ -99,13 +105,11 @@
         <!-- Cabeçalho do corpo da página -->
 
         <header>
-            <h1>Minhas Gincanas</h1>
-            <h1 class="display-6">2 gincanas foram criadas por você!</h1>
-            <p>Para ver as gincanas que você está participando, clique <a href="#">aqui</a>. <br> <strong>Selecione uma das opções abaixo para criar uma nova gincana:</strong></p>
-            <div class="btn-group" role="group" aria-label="Grupo de botões">
-                <button type="button" class="btn btn-outline-primary"><i class="fas fa-plus fa-fw"></i>GINCANA PESSOAL</button>
-                <button type="button" class="btn btn-outline-primary"><i class="fas fa-plus fa-fw"></i>GINCANA EMPRESARIAL</button>
-            </div>
+            <h1 class="formatacaoDestaque">Minhas Gincanas</h1>
+            <h3>2 gincanas foram criadas por você!</h3>
+            <p>Para ver as gincanas que você está participando, clique <a href="#">aqui</a>, ou selecione uma das opções abaixo para criar uma nova gincana:</p>
+            <button type="button" class="btn btn-outline-primary formatacaoDestaque" id="botaoCriarGincanaPessoal"><i class="fas fa-plus fa-fw"></i>GINCANA PESSOAL</button>
+            <button type="button" class="btn btn-outline-primary formatacaoDestaque"><i class="fas fa-plus fa-fw"></i>GINCANA EMPRESARIAL</button>
         </header>
 
         <!-- Cards da minhas gincanas criadas -->
@@ -116,24 +120,24 @@
     	            <div class="card text-center shadow-sm">
       		        <img src="imagens/cards/example1.jpg" class="imagemDestaqueCard card-img-top" alt="...">
       		        <div class="card-body">
-        		        <h3 class="card-title">Gincana #1</h3>
+        		        <h3 class="card-title formatacaoDestaque">Gincana #1</h3>
                         <h5><i class="fas fa-stopwatch fa-fw"></i>00:00:00</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Descrição</h6>
+                        <p class="card-subtitle mb-2"><strong>Descrição</strong></p>
         		        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum nulla quae dolorem iusto id, cupiditate soluta quam, ab, dicta rerum iure nemo in quibusdam praesentium laudantium dolores. Rem, velit illum.</p>
                         <p>
                             <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRegrasGincana1" aria-expanded="false" aria-controls="collapseRegrasGincana1"><i class="fas fa-chevron-down fa-fw"></i><strong>CLIQUE PARA VER MAIS</strong></button>
                         </p>
                         <div class="collapse collapseRegras" id="collapseRegrasGincana1">
                             <div class="card card-body">
-                                <h6 class="card-subtitle mb-2 text-muted">Regras</h6>
+                                <p class="card-subtitle mb-2"><strong>Regras</strong></p>
                                 Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
                             </div>
                         </div>
-                        <a class="btn btn-primary"><i class="fas fa-eye fa-fw"></i>VISUALIZAR</a>
-                        <a class="btn btn-primary"><i class="fas fa-medal fa-fw"></i>RANKING</a>
+                        <a class="btn btn-primary formatacaoDestaque"><i class="fas fa-eye fa-fw"></i>VISUALIZAR</a>
+                        <a class="btn btn-primary formatacaoDestaque"><i class="fas fa-medal fa-fw"></i>RANKING</a>
                         <br>
-                        <a class="btn btn-secondary segundaLinhaBotoes"><i class="fas fa-edit fa-fw"></i>EDITAR</a>
-                        <a class="btn btn-danger segundaLinhaBotoes"><i class="fas fa-trash fa-fw"></i>EXCLUIR</a>
+                        <a class="btn btn-secondary segundaLinhaBotoes formatacaoDestaque"><i class="fas fa-edit fa-fw"></i>EDITAR</a>
+                        <a class="btn btn-danger segundaLinhaBotoes formatacaoDestaque"><i class="fas fa-trash fa-fw"></i>EXCLUIR</a>
 			        </div>
     	        </div>
   	        </div>
@@ -141,22 +145,22 @@
     	        <div class="card text-center shadow-sm">
       		        <img src="imagens/cards/example2.jpg" class="imagemDestaqueCard card-img-top" alt="...">
       		        <div class="card-body">
-        		        <h3 class="card-title">Gincana #2</h3>
+        		        <h3 class="card-title formatacaoDestaque">Gincana #2</h3>
                         <h5 class="gincanaEncerrada">GINCANA ENCERRADA!</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Descrição</h6>
+                        <p class="card-subtitle mb-2"><strong>Descrição</strong></p>
         		        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum nulla quae dolorem iusto id, cupiditate soluta quam, ab, dicta rerum iure nemo in quibusdam praesentium laudantium dolores. Rem, velit illum.</p>
                         <p>
                             <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRegrasGincana2" aria-expanded="false" aria-controls="collapseRegrasGincana2"><i class="fas fa-chevron-down fa-fw"></i><strong>CLIQUE PARA VER MAIS</strong></button>
                         </p>
                         <div class="collapse collapseRegras" id="collapseRegrasGincana2">
                             <div class="card card-body">
-                                <h6 class="card-subtitle mb-2 text-muted">Regras</h6>
+                                <p class="card-subtitle mb-2"><strong>Regras</strong></p>
                                 Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
                             </div>
                         </div>
-                        <a class="btn btn-primary"><i class="fas fa-medal fa-fw"></i>RANKING</a>
-                        <a class="btn btn-secondary"><i class="fas fa-edit fa-fw"></i>EDITAR</a>
-                        <a class="btn btn-danger"><i class="fas fa-trash fa-fw"></i>EXCLUIR</a>
+                        <a class="btn btn-primary formatacaoDestaque"><i class="fas fa-medal fa-fw"></i>RANKING</a>
+                        <a class="btn btn-secondary formatacaoDestaque"><i class="fas fa-edit fa-fw"></i>EDITAR</a>
+                        <a class="btn btn-danger formatacaoDestaque"><i class="fas fa-trash fa-fw"></i>EXCLUIR</a>
 			        </div>
     	        </div>
   	        </div>

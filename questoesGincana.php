@@ -52,6 +52,18 @@
 
             }
 
+            .card-text {
+
+                margin: 0px;
+
+            }
+        
+            #formulario {
+
+                margin-bottom: 0px;
+
+            }
+
             @media (min-width: 0px) and (max-width: 1199.98px) { 
 				
 				.btn {
@@ -91,25 +103,21 @@
         ?>
 
         <!-- Cabeçalho do corpo da página -->
-        <!-- Esta seção compreende o formulário de preenchimento de código do amigo e do título do corpo da página -->
 
         <header>
-
-            <h1>Questões da Gincana</h1>
-            <h1 class="display-6">Mostrando as questões da Gincana de Exemplo #1</h1>
-
-            <form class="row g-3 align-items-center d-flex justify-content-center">
+            <h1 class="formatacaoDestaque">Questões da Gincana</h1>
+            <h3>Mostrando as questões da Gincana de Exemplo #1</h3>
+            <form id="formulario" class="row g-3 align-items-center d-flex justify-content-center">
                 <div class="col-auto">
-                    <label for="inputCodigoAmigo" class="col-form-label"><strong>Possui um código de um amigo?</strong> Digite-o aqui e ganhe 2 pontos!</label>
+                    <label for="inputCodigoAmigo" class="col-form-label"><strong>Possui um código de um amigo?</strong> Informe-o no campo ao lado e ganhe 2 pontos!</label>
                 </div>
                 <div class="col-auto">
                     <input type="text" id="inputCodigoAmigo" class="form-control">
                 </div>
                 <div class="col-auto">
-                    <input id="botaoSumbit" class="btn btn-primary" type="submit" value="ENVIAR" name="">
+                    <input id="botaoSumbit" class="btn btn-outline-primary formatacaoDestaque" type="submit" value="ENVIAR" name="">
                 </div>
             </form>
-
         </header>
 
         <!-- Cards das questões -->
@@ -120,7 +128,7 @@
     	            <div class="card text-center shadow-sm">
       		            <img src="imagens/cards/example1.jpg" class="imagemDestaqueCard card-img-top" alt="...">
       		            <div class="card-body">
-        		            <h4 class="card-title">Questão #1</h4>
+        		            <h4 class="card-title formatacaoDestaque">Questão #1</h4>
             		        <p class="card-text">
                                 <ul class="listagemAlternativas">
                                     <li>Alternativa...</li>
@@ -128,7 +136,7 @@
                                     <li>Alternativa...</li>
                                 </ul>
                             </p>
-                            <a class="btn btn-primary"><i class="fas fa-gamepad fa-fw"></i>RESPONDER</a>
+                            <a class="btn btn-primary formatacaoDestaque"><i class="fas fa-gamepad fa-fw"></i>RESPONDER</a>
 			            </div>
     	            </div>
   	            </div>
@@ -136,7 +144,7 @@
     	            <div class="card text-center shadow-sm">
       		            <img src="imagens/cards/example2.jpg" class="imagemDestaqueCard card-img-top" alt="...">
       			        <div class="card-body">
-                            <h4 class="card-title">Questão #2</h4>
+                            <h4 class="card-title formatacaoDestaque">Questão #2</h4>
         		            <p class="card-text">
                                 <ul class="listagemAlternativas">
                                     <li>Alternativa...</li>
@@ -144,7 +152,7 @@
                                     <li>Alternativa...</li>
                                 </ul>
                             </p>
-                            <a class="btn btn-primary"><i class="fas fa-gamepad fa-fw"></i>RESPONDER</a>
+                            <a class="btn btn-primary formatacaoDestaque"><i class="fas fa-gamepad fa-fw"></i>RESPONDER</a>
 				        </div>
     		        </div>
   		        </div>
@@ -152,7 +160,7 @@
     	            <div class="card text-center shadow-sm">
       		            <img src="imagens/cards/example3.jpg" class="imagemDestaqueCard card-img-top" alt="...">
       			        <div class="card-body">
-                            <h4 class="card-title">Questão #3</h4>
+                            <h4 class="card-title formatacaoDestaque">Questão #3</h4>
         		            <p class="card-text">
                                 <ul class="listagemAlternativas">
                                     <li>Alternativa...</li>
@@ -160,7 +168,7 @@
                                     <li>Alternativa...</li>
                                 </ul>
                             </p>
-                            <a class="btn btn-primary"><i class="fas fa-gamepad fa-fw"></i>RESPONDER</a>
+                            <a class="btn btn-primary formatacaoDestaque"><i class="fas fa-gamepad fa-fw"></i>RESPONDER</a>
 				        </div>
     		        </div>
   		        </div>

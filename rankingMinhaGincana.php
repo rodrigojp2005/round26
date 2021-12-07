@@ -56,7 +56,7 @@
             #containerBotaoVoltar {
 
                 text-align: center;
-                margin: 0px 20px 0px 20px;
+                margin: 0px 20px 20px 20px;
 
             }
 
@@ -95,8 +95,8 @@
         <!-- Cabeçalho do corpo da página -->
 
         <header>
-            <h1>Ranking de Gincana</h1>
-            <h1 class="display-6">4 usuários estão participando da sua gincana!</h1>
+            <h1 class="formatacaoDestaque">Ranking de Gincana</h1>
+            <h3>4 usuários estão participando da sua gincana!</h3>
             <p><strong>Lembrando: </strong>os mais bem colocados ganham prêmios!!!</p>
         </header>
 
@@ -119,28 +119,28 @@
                         <td>Ana Joanna</td>
                         <td>20</td>
                         <td>100% (R$ 20,00)</td>
-                        <td><a class="btn btn-success"><i class="fas fa-check fa-fw"></i>RESGATADO</a></td>
+                        <td><a class="btn formatacaoDestaque"><i class="fas fa-check fa-fw"></i>RESGATADO</a></td>
                     </tr>
                     <tr>
                         <th scope="row"><i class="fas fa-trophy fa-fw" style="color: silver;"></i></th>
                         <td>Bob Roberto</td>
                         <td>19</td>
                         <td>90% (R$ 19,00)</td>
-                        <td><a class="btn btn-success"><i class="fas fa-check fa-fw"></i>RESGATADO</a></td>
+                        <td><a class="btn formatacaoDestaque"><i class="fas fa-check fa-fw"></i>RESGATADO</a></td>
                     </tr>
                     <tr>
                         <th scope="row"><i class="fas fa-trophy fa-fw" style="color: #B87333;"></i></th>
                         <td>Lucas Martins</td>
                         <td>18</td>
                         <td>80% (R$ 18,00)</td>
-                        <td><a class="btn btn-danger"><i class="fas fa-times fa-fw"></i>NÃO RESGATADO</a></td>
+                        <td><a class="btn formatacaoDestaque"><i class="fas fa-times fa-fw"></i>NÃO RESGATADO</a></td>
                     </tr>
                     <tr>
                         <th scope="row">4</th>
                         <td>Maria Carolina</td>
                         <td>17</td>
                         <td>70% (R$ 17,00)</td>
-                        <td><a class="btn btn-danger"><i class="fas fa-times fa-fw"></i>NÃO RESGATADO</a></td>
+                        <td><a class="btn formatacaoDestaque"><i class="fas fa-times fa-fw"></i>NÃO RESGATADO</a></td>
                     </tr>
                 </tbody>
             </table>
@@ -149,7 +149,7 @@
         <!-- Botão de retorno -->
         
         <div id="containerBotaoVoltar">
-            <a class="btn btn-outline-danger" href="#"><i class="fas fa-arrow-left fa-fw"></i>VOLTAR PARA A PÁGINA DAS MINHAS GINCANAS</a>
+            <a class="btn btn-outline-danger formatacaoDestaque" href="#"><i class="fas fa-arrow-left fa-fw"></i>VOLTAR PARA A PÁGINA DE MINHAS GINCANAS</a>
         </div>
 
         <!-- Realiza a importação do rodapé da página -->

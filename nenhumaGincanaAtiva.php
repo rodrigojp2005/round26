@@ -84,8 +84,8 @@
         <!-- Cabeçalho do corpo da página -->
 
         <header>
-            <h1>Gincanas Ativas</h1>
-            <h1 class="display-6">Não há gincanas ativas em sua cidade. Crie uma agora!</h1>
+            <h1 class="formatacaoDestaque">Gincanas Ativas</h1>
+            <h3>Não há gincanas ativas em sua cidade. Crie uma agora!</h3>
         </header>
    
         <!-- Cards das opções de criação de gincanas -->
@@ -96,9 +96,9 @@
     	            <div class="card text-center h-100 shadow-sm">
       		            <img src="imagens/cards/example1.jpg" class="imagemDestaqueCard card-img-top" alt="...">
       		            <div class="card-body">
-        		            <h3 class="card-title">Gincanas Empresariais</h3>
+        		            <h3 class="card-title formatacaoDestaque">Gincanas Empresariais</h3>
         		            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis molestias beatae recusandae, vel laudantium odio deserunt eum nam voluptate incidunt in pariatur sapiente iure minima esse ipsum quisquam expedita exercitationem.</p>
-				            <a class="btn btn-primary"><i class="fas fa-plus fa-fw"></i>CRIAR GINCANA EMPRESARIAL</a>
+				            <a class="btn btn-primary formatacaoDestaque"><i class="fas fa-plus fa-fw"></i>CRIAR GINCANA EMPRESARIAL</a>
                         </div>
     	            </div>
   	            </div>
@@ -106,9 +106,9 @@
     	            <div class="card text-center h-100 shadow-sm">
       		            <img src="imagens/cards/example2.jpg" class="imagemDestaqueCard card-img-top" alt="...">
       			        <div class="card-body">
-        			        <h3 class="card-title">Gincanas Pessoais</h3>
+        			        <h3 class="card-title formatacaoDestaque">Gincanas Pessoais</h3>
         			        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore maiores ex aspernatur omnis iure, a veritatis consectetur eveniet quo officia quia vero natus, reprehenderit et optio sed ab saepe reiciendis!</p>
-					        <a class="btn btn-primary"><i class="fas fa-plus fa-fw"></i>CRIAR GINCANA PESSOAL</a>
+					        <a class="btn btn-primary formatacaoDestaque"><i class="fas fa-plus fa-fw"></i>CRIAR GINCANA PESSOAL</a>
 				        </div>
     		        </div>
   		        </div>
@@ -118,7 +118,7 @@
         <!-- Botão de retorno -->
         
         <div id="containerBotaoVoltar">
-            <a class="btn btn-outline-danger" href="#"><i class="fas fa-arrow-left fa-fw"></i>VOLTAR PARA A PÁGINA INICIAL</a>
+            <a class="btn btn-outline-danger formatacaoDestaque" href="#"><i class="fas fa-arrow-left fa-fw"></i>VOLTAR PARA A PÁGINA INICIAL</a>
         </div>
 
         <!-- Realiza a importação do rodapé da página -->

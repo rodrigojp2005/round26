@@ -21,6 +21,12 @@
 
         <style>
 
+            .card-text {
+
+                margin-bottom: 5px;
+
+            }
+
             header {
 
                 text-align: center;
@@ -40,7 +46,7 @@
 
             }
 
-            .imgCard {
+            .imagemDestaqueCard {
 
                 height: 325px;
 
@@ -86,11 +92,11 @@
 
         <!-- Cabeçalho do corpo da página -->
 
-        <header id="containerTitulo">
-            <h1>Edição de Questões de Gincana</h1>
-            <h1 class="display-6">Visualizando as perguntas da Gincana #1</h1>
-            <p>Clique no botão abaixo para adicionar uma nova pergunta para a gincana selecionada.</p>
-            <a class="btn btn-outline-primary"><i class="fas fa-plus fa-fw"></i>ADICIONAR QUESTÃO</a>
+        <header>
+            <h1 class="formatacaoDestaque">Edição de Questões de Gincana</h1>
+            <h3>Visualizando as perguntas da Gincana #1</h3>
+            <p>Clique no botão abaixo para adicionar uma nova pergunta para essa gincana.</p>
+            <a class="btn btn-outline-primary formatacaoDestaque"><i class="fas fa-plus fa-fw"></i>ADICIONAR QUESTÃO</a>
         </header>
 
         <!-- Cards das questões -->
@@ -99,9 +105,9 @@
             <div class="row row-cols-1 row-cols-md-3 g-4">
   	            <div class="col">
     	            <div class="card text-center shadow-sm">
-      		            <img src="imagens/cards/example1.jpg" class="imgCard card-img-top" alt="...">
+      		            <img src="imagens/cards/example1.jpg" class="imagemDestaqueCard card-img-top" alt="...">
       		            <div class="card-body">
-        		            <h3 class="card-title">Questão #1</h3>
+        		            <h3 class="card-title formatacaoDestaque">Questão #1</h3>
             		        <p class="card-text">
                                 Atualmente, essa questão possui as seguintes alternativas disponíveis para responder:
                                 <ul class="listagemAlternativas">
@@ -110,16 +116,16 @@
                                     <li>Alternativa...</li>
                                 </ul>
                             </p>
-                            <a class="btn btn-primary"><i class="fas fa-edit fa-fw"></i>EDITAR</a>
-                            <a class="btn btn-danger"><i class="fas fa-trash fa-fw"></i>EXCLUIR</a>
+                            <a class="btn btn-primary formatacaoDestaque"><i class="fas fa-edit fa-fw"></i>EDITAR</a>
+                            <a class="btn btn-danger formatacaoDestaque"><i class="fas fa-trash fa-fw"></i>EXCLUIR</a>
 			            </div>
     	            </div>
   	            </div>
   	            <div class="col">
     	            <div class="card text-center shadow-sm">
-      		            <img src="imagens/cards/example2.jpg" class="imgCard card-img-top" alt="...">
+      		            <img src="imagens/cards/example2.jpg" class="imagemDestaqueCard card-img-top" alt="...">
       			        <div class="card-body">
-                            <h3 class="card-title">Questão #2</h3>
+                            <h3 class="card-title formatacaoDestaque">Questão #2</h3>
         		            <p class="card-text">
                                 Atualmente, essa questão possui as seguintes alternativas disponíveis para responder:
                                 <ul class="listagemAlternativas">
@@ -128,16 +134,16 @@
                                     <li>Alternativa...</li>
                                 </ul>
                             </p>
-                            <a class="btn btn-primary"><i class="fas fa-edit fa-fw"></i>EDITAR</a>
-                            <a class="btn btn-danger"><i class="fas fa-trash fa-fw"></i>EXCLUIR</a>
+                            <a class="btn btn-primary formatacaoDestaque"><i class="fas fa-edit fa-fw"></i>EDITAR</a>
+                            <a class="btn btn-danger formatacaoDestaque"><i class="fas fa-trash fa-fw"></i>EXCLUIR</a>
 				        </div>
     		        </div>
   		        </div>
   	            <div class="col">
     	            <div class="card text-center shadow-sm">
-      		            <img src="imagens/cards/example3.jpg" class="imgCard card-img-top" alt="...">
+      		            <img src="imagens/cards/example3.jpg" class="imagemDestaqueCard card-img-top" alt="...">
       			        <div class="card-body">
-                            <h3 class="card-title">Questão #3</h3>
+                            <h3 class="card-title formatacaoDestaque">Questão #3</h3>
         		            <p class="card-text">
                                 Atualmente, essa questão possui as seguintes alternativas disponíveis para responder:
                                 <ul class="listagemAlternativas">
@@ -146,8 +152,8 @@
                                     <li>Alternativa...</li>
                                 </ul>
                             </p>
-                            <a class="btn btn-primary"><i class="fas fa-edit fa-fw"></i>EDITAR</a>
-                            <a class="btn btn-danger"><i class="fas fa-trash fa-fw"></i>EXCLUIR</a>
+                            <a class="btn btn-primary formatacaoDestaque"><i class="fas fa-edit fa-fw"></i>EDITAR</a>
+                            <a class="btn btn-danger formatacaoDestaque"><i class="fas fa-trash fa-fw"></i>EXCLUIR</a>
 				        </div>
     		        </div>
   		        </div>
