@@ -28,6 +28,12 @@
 
             }
 
+            header p {
+
+                margin-bottom: 0px;
+
+            }
+
             .row {
 
                 margin: 0px 20px 20px 20px;
@@ -36,16 +42,14 @@
 
             .imagemDestaqueCard {
 
-                height: 350px;
+                height: 375px;
 
             }
 
             #containerBotaoVoltar {
 
                 text-align: center;
-                margin-bottom: 20px;
-                margin-left: 20px;
-                margin-right: 20px;
+                margin: 0px 20px 20px 20px;
 
             }
 
@@ -86,6 +90,7 @@
         <header>
             <h1 class="formatacaoDestaque">Gincanas Ativas</h1>
             <h3>Não há gincanas ativas em sua cidade. Crie uma agora!</h3>
+            <p>Selecione uma das opções dos cards abaixo para criar uma nova gincana.</p>
         </header>
    
         <!-- Cards das opções de criação de gincanas -->

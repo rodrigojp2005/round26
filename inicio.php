@@ -15,7 +15,7 @@
 
         <!-- Título da página -->
 
-        <title formatacaoDestaque>Início - Round26</title formatacaoDestaque>
+        <title>Início - Round26</title>
 
         <!-- CSS -->
 
@@ -35,7 +35,7 @@
 
             .imagemDestaqueCard {
 
-                height: 375px;
+                height: 300px;
 
             }
 
@@ -46,7 +46,7 @@
 
             }
 
-            .imagemBanner {
+            .imagemCarrosselInformativo {
 
                 height: 500px;
 
@@ -90,13 +90,13 @@
         		</div>
 	       	 	<div class="carousel-inner">
             		<div class="carousel-item active">
-      		        	<img src="imagens/carrosselInformativo/example1.jpg" class="imagemBanner d-block w-100" alt="...">
+      		        	<img src="imagens/carrosselInformativo/example1.jpg" class="imagemCarrosselInformativo d-block w-100" alt="...">
     	        	</div>
     	        	<div class="carousel-item">
-      		        	<img src="imagens/carrosselInformativo/example2.jpg" class="imagemBanner d-block w-100" alt="...">
+      		        	<img src="imagens/carrosselInformativo/example2.jpg" class="imagemCarrosselInformativo d-block w-100" alt="...">
     	        	</div>
     	        	<div class="carousel-item">
-      		        	<img src="imagens/carrosselInformativo/example3.jpg" class="imagemBanner d-block w-100" alt="...">
+      		        	<img src="imagens/carrosselInformativo/example3.jpg" class="imagemCarrosselInformativo d-block w-100" alt="...">
     	        	</div>
   	        	</div>
   	        	<button class="carousel-control-prev" type="button" data-bs-target="#carrosselInformativo" data-bs-slide="prev">

@@ -35,7 +35,7 @@
 
             .imagemDestaqueCard {
 
-                height: 375px;
+                height: 300px;
 
             }
 
@@ -46,7 +46,7 @@
 
             }
             
-            .collapseRegras {
+            .collapseListagemRegras {
 
                 margin-bottom: 15px;
 
@@ -100,9 +100,9 @@
                             <p class="card-subtitle mb-2"><strong>Descrição</strong></p>
         		            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus non voluptatem aut corporis ratione, ducimus iste placeat corrupti nesciunt tempora! Autem tempora perferendis voluptatem tenetur necessitatibus ad harum iste asperiores?</p>
 				            <p>
-                                <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRegrasGincana1" aria-expanded="false" aria-controls="collapseRegrasGincana1"><i class="fas fa-chevron-down fa-fw"></i><strong>CLIQUE PARA VER MAIS</strong></button>
+                                <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseListagemRegrasGincana1" aria-expanded="false" aria-controls="collapseListagemRegrasGincana1"><i class="fas fa-chevron-down fa-fw"></i><strong>CLIQUE PARA VER MAIS</strong></button>
                             </p>
-                            <div class="collapse collapseRegras" id="collapseRegrasGincana1">
+                            <div class="collapse collapseListagemRegras" id="collapseListagemRegrasGincana1">
                                 <div class="card card-body">
                                     <p class="card-subtitle mb-2"><strong>Regras</strong></p>
                                     Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
@@ -121,9 +121,9 @@
                             <p class="card-subtitle mb-2"><strong>Descrição</strong></p>
         		            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias voluptates odio voluptatibus asperiores vitae laborum nihil provident dolores aliquid magni? Nulla, officia earum aliquid odio culpa eaque quidem reiciendis. Est?</p>
 				            <p>
-                                <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRegrasGincana2" aria-expanded="false" aria-controls="collapseRegrasGincana2"><i class="fas fa-chevron-down fa-fw"></i><strong>CLIQUE PARA VER MAIS</strong></button>
+                                <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseListagemRegrasGincana2" aria-expanded="false" aria-controls="collapseListagemRegrasGincana2"><i class="fas fa-chevron-down fa-fw"></i><strong>CLIQUE PARA VER MAIS</strong></button>
                             </p>
-                            <div class="collapse collapseRegras" id="collapseRegrasGincana2">
+                            <div class="collapse collapseListagemRegras" id="collapseListagemRegrasGincana2">
                                 <div class="card card-body">
                                     <p class="card-subtitle mb-2"><strong>Regras</strong></p>
                                     Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
@@ -142,9 +142,9 @@
                             <p class="card-subtitle mb-2"><strong>Descrição</strong></p>
         		            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore delectus deserunt expedita excepturi deleniti possimus magni accusantium qui fugiat asperiores, ipsam, unde repellendus maxime corrupti id inventore fuga. Quibusdam, distinctio?</p>
 				            <p>
-                                <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRegrasGincana3" aria-expanded="false" aria-controls="collapseRegrasGincana3"><i class="fas fa-chevron-down fa-fw"></i><strong>CLIQUE PARA VER MAIS</strong></button>
+                                <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseListagemRegrasGincana3" aria-expanded="false" aria-controls="collapseListagemRegrasGincana3"><i class="fas fa-chevron-down fa-fw"></i><strong>CLIQUE PARA VER MAIS</strong></button>
                             </p>
-                            <div class="collapse collapseRegras" id="collapseRegrasGincana3">
+                            <div class="collapse collapseListagemRegras" id="collapseListagemRegrasGincana3">
                                 <div class="card card-body">
                                     <p class="card-subtitle mb-2"><strong>Regras</strong></p>
                                     Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.

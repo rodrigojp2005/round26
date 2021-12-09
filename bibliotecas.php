@@ -1,4 +1,4 @@
-<!-- Meta -->
+<!-- TAGs de metadados (META) -->
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,3 +11,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Readex+Pro&display=swap" rel="stylesheet">
+
+<!-- Importação dos arquivos de fonte de estilo (CSS) -->
+
+<link rel="stylesheet" href="css/fontes.css">
+<link rel="stylesheet" href="css/formatacaoRodape.css">
+<link rel="stylesheet" href="css/formatacaoBarraNavegacao.css">

@@ -35,7 +35,7 @@
 
             .imagemDestaqueCard {
 
-                height: 375px;
+                height: 300px;
 
             }
 
@@ -43,12 +43,6 @@
 
                 margin: 20px 20px 0px 20px;
                 text-align: center;
-
-            }
-            
-            .collapseRegras {
-
-                margin-bottom: 15px;
 
             }
 

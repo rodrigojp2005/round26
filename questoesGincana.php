@@ -42,7 +42,7 @@
 
             .imagemDestaqueCard {
 
-                height: 325px;
+                height: 300px;
 
             }
 
@@ -106,16 +106,16 @@
 
         <header>
             <h1 class="formatacaoDestaque">Questões da Gincana</h1>
-            <h3>Mostrando as questões da Gincana de Exemplo #1</h3>
+            <h3>Mostrando as questões da "Gincana de Exemplo #1"</h3>
             <form id="formulario" class="row g-3 align-items-center d-flex justify-content-center">
                 <div class="col-auto">
-                    <label for="inputCodigoAmigo" class="col-form-label"><strong>Possui um código de um amigo?</strong> Informe-o no campo ao lado e ganhe 2 pontos!</label>
+                    <label for="inputCodigoAmigo" class="col-form-label">Possui um código de um amigo? Informe-o no campo ao lado e <strong>ganhe 2 pontos</strong>!</label>
                 </div>
                 <div class="col-auto">
                     <input type="text" id="inputCodigoAmigo" class="form-control">
                 </div>
                 <div class="col-auto">
-                    <input id="botaoSumbit" class="btn btn-outline-primary formatacaoDestaque" type="submit" value="ENVIAR" name="">
+                    <input id="botaoSumbit" class="btn btn-outline-primary formatacaoDestaque" type="submit" value="SUBMETER" name="">
                 </div>
             </form>
         </header>

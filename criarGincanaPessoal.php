@@ -82,7 +82,8 @@
 
         <header>
             <h1 class="formatacaoDestaque">Criação de Gincanas Pessoais</h1>
-            <h3>Digite nos campos abaixo as informações da nova gincana pessoal:</h3>
+            <h3>Crie seus próprios jogos de descontos</h3>
+            <p>Digite nos campos abaixo as informações da nova gincana pessoal.</p>
         </header>
 
         <!-- Campos de entrada para criação de Gincanas Pessoais -->
@@ -125,8 +126,8 @@
                     <input class="form-control" type="file" id="inputImagem">
                 </div>
                 <div class="mb-3 text-center">
-                    <a class="btn btn-outline-danger formatacaoDestaque" href="#"><i class="fas fa-arrow-left fa-fw"></i>VOLTAR PARA A PÁGINA INICIAL</a>
-                    <input type="submit" class="btn btn-primary formatacaoDestaque" value="CADASTRAR GINCANA"></input>  
+                    <input type="submit" class="btn btn-primary formatacaoDestaque" value="CADASTRAR GINCANA"></input>
+                    <a class="btn btn-outline-danger formatacaoDestaque" href="#"><i class="fas fa-arrow-left fa-fw"></i>VOLTAR PARA A PÁGINA INICIAL</a> 
                 </div>  
             </form>
         </main>

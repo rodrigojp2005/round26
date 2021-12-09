@@ -48,7 +48,7 @@
 
             .imagemDestaqueCard {
 
-                height: 325px;
+                height: 300px;
 
             }
 
@@ -94,7 +94,7 @@
 
         <header>
             <h1 class="formatacaoDestaque">Edição de Questões de Gincana</h1>
-            <h3>Visualizando as perguntas da Gincana #1</h3>
+            <h3>Visualizando as perguntas da "Gincana #1"</h3>
             <p>Clique no botão abaixo para adicionar uma nova pergunta para essa gincana.</p>
             <a class="btn btn-outline-primary formatacaoDestaque"><i class="fas fa-plus fa-fw"></i>ADICIONAR QUESTÃO</a>
         </header>

@@ -34,12 +34,6 @@
 
             }
 
-            header p {
-
-                margin: 0px;
-
-            }
-
             .row {
 
                 margin: 0px 20px 20px 20px;
@@ -60,7 +54,7 @@
 
             .imagemDestaqueCard {
 
-                height: 350px;
+                height: 300px;
 
             }
 
@@ -106,8 +100,9 @@
 
         <header>
             <h1 class="formatacaoDestaque">Minhas Gincanas</h1>
-            <h3>Você está participando de 2 gincanas!</h3>
-            <p>Para ver as gincanas que você criou, clique <a href="#">aqui</a>.</p>
+            <h3>Você está participando de 2 gincanas</h3>
+            <p>Para ver as gincanas que você criou, clique <a href="#">aqui</a>, ou clique no botão abaixo para acessar todas as gincanas ativas.</p>
+            <button type="button" class="btn btn-outline-primary formatacaoDestaque"><i class="fas fa-gamepad fa-fw"></i>TODAS AS GINCANAS ATIVAS</button>
         </header>
 
         <!-- Cards das gincanas que eu participo -->

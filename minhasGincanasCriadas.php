@@ -46,7 +46,7 @@
 
             }
 
-            .collapseRegras {
+            .collapseListagemRegras {
 
                 margin-bottom: 15px;
 
@@ -54,7 +54,7 @@
 
             .imagemDestaqueCard {
 
-                height: 350px;
+                height: 300px;
 
             }
 
@@ -106,8 +106,8 @@
 
         <header>
             <h1 class="formatacaoDestaque">Minhas Gincanas</h1>
-            <h3>2 gincanas foram criadas por você!</h3>
-            <p>Para ver as gincanas que você está participando, clique <a href="#">aqui</a>, ou selecione uma das opções abaixo para criar uma nova gincana:</p>
+            <h3>2 gincanas foram criadas por você</h3>
+            <p>Para ver as gincanas que você está participando, clique <a href="#">aqui</a>, ou selecione uma das opções abaixo para criar uma nova gincana.</p>
             <button type="button" class="btn btn-outline-primary formatacaoDestaque" id="botaoCriarGincanaPessoal"><i class="fas fa-plus fa-fw"></i>GINCANA PESSOAL</button>
             <button type="button" class="btn btn-outline-primary formatacaoDestaque"><i class="fas fa-plus fa-fw"></i>GINCANA EMPRESARIAL</button>
         </header>
@@ -125,9 +125,9 @@
                         <p class="card-subtitle mb-2"><strong>Descrição</strong></p>
         		        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum nulla quae dolorem iusto id, cupiditate soluta quam, ab, dicta rerum iure nemo in quibusdam praesentium laudantium dolores. Rem, velit illum.</p>
                         <p>
-                            <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRegrasGincana1" aria-expanded="false" aria-controls="collapseRegrasGincana1"><i class="fas fa-chevron-down fa-fw"></i><strong>CLIQUE PARA VER MAIS</strong></button>
+                            <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseListagemRegrasGincana1" aria-expanded="false" aria-controls="collapseListagemRegrasGincana1"><i class="fas fa-chevron-down fa-fw"></i><strong>CLIQUE PARA VER MAIS</strong></button>
                         </p>
-                        <div class="collapse collapseRegras" id="collapseRegrasGincana1">
+                        <div class="collapse collapseListagemRegras" id="collapseListagemRegrasGincana1">
                             <div class="card card-body">
                                 <p class="card-subtitle mb-2"><strong>Regras</strong></p>
                                 Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
@@ -150,9 +150,9 @@
                         <p class="card-subtitle mb-2"><strong>Descrição</strong></p>
         		        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum nulla quae dolorem iusto id, cupiditate soluta quam, ab, dicta rerum iure nemo in quibusdam praesentium laudantium dolores. Rem, velit illum.</p>
                         <p>
-                            <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRegrasGincana2" aria-expanded="false" aria-controls="collapseRegrasGincana2"><i class="fas fa-chevron-down fa-fw"></i><strong>CLIQUE PARA VER MAIS</strong></button>
+                            <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseListagemRegrasGincana2" aria-expanded="false" aria-controls="collapseListagemRegrasGincana2"><i class="fas fa-chevron-down fa-fw"></i><strong>CLIQUE PARA VER MAIS</strong></button>
                         </p>
-                        <div class="collapse collapseRegras" id="collapseRegrasGincana2">
+                        <div class="collapse collapseListagemRegras" id="collapseListagemRegrasGincana2">
                             <div class="card card-body">
                                 <p class="card-subtitle mb-2"><strong>Regras</strong></p>
                                 Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.

@@ -41,8 +41,10 @@
             }
 
             td {
+
                 height: 50px;
                 vertical-align: middle;
+
             }
 
             tr th {
@@ -96,8 +98,8 @@
 
         <header>
             <h1 class="formatacaoDestaque">Ranking de Gincana</h1>
-            <h3>4 usuários estão participando dessa gincana!</h3>
-            <p><strong>Lembrando: </strong>os mais bem colocados ganham prêmios!!!</p>
+            <h3>4 usuários estão participando dessa gincana</h3>
+            <p>Confira na tabela abaixo as posições dos participantes dessa gincana.</p>
         </header>
 
         <!-- Ranking da gincana -->
@@ -115,21 +117,21 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <th scope="row"><i class="fas fa-trophy fa-fw" style="color: gold;"></i></th>
+                        <th scope="row"><i class="fas fa-trophy fa-fw" style="color: gold; margin-right: 0px;"></i></th>
                         <td>Ana Joanna</td>
                         <td>20</td>
                         <td>100% (R$ 20,00)</td>
                         <td><a class="btn formatacaoDestaque"><i class="fas fa-ticket-alt fa-fw"></i>RESGATAR CUPOM</a></td>
                     </tr>
                     <tr>
-                        <th scope="row"><i class="fas fa-trophy fa-fw" style="color: silver;"></i></th>
+                        <th scope="row"><i class="fas fa-trophy fa-fw" style="color: silver; margin-right: 0px;"></i></th>
                         <td>Bob Roberto</td>
                         <td>19</td>
                         <td>90% (R$ 19,00)</td>
                         <td><a class="btn formatacaoDestaque"><i class="fas fa-ticket-alt fa-fw"></i>RESGATAR CUPOM</a></td>
                     </tr>
                     <tr>
-                        <th scope="row"><i class="fas fa-trophy fa-fw" style="color: #B87333;"></i></th>
+                        <th scope="row"><i class="fas fa-trophy fa-fw" style="color: #CD7F32; margin-right: 0px;"></i></th>
                         <td>Lucas Martins</td>
                         <td>18</td>
                         <td>80% (R$ 18,00)</td>

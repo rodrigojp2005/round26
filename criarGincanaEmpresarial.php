@@ -53,9 +53,28 @@
 
             }
 
-            .teste {
+            .linhaSelectPontos .col:first-child {
 
-                margin-right: 0px;
+                padding-left: 7.5px;
+
+            }
+
+            .linhaSelectPontos .col:nth-child(3) {
+
+                padding-right: 7.5px;
+
+            }
+
+            #linhaDatasGincana .col:first-child {
+
+                padding-left: 7.5px;
+
+            }
+
+            #linhaDatasGincana .col:nth-child(2) {
+
+                padding-right: 7.5px;
+
             }
 
             .row {
@@ -68,6 +87,12 @@
             .asteriscoObrigatorio {
 
                 color: red;
+
+            }
+
+            #textoPontos2 {
+
+                margin-bottom: 0px;
 
             }
 
@@ -107,7 +132,8 @@
 
         <header>
             <h1 class="formatacaoDestaque">Criação de Gincanas Empresariais</h1>
-            <h3>Digite nos campos abaixo as informações da nova gincana empresarial:</h3>
+            <h3>Crie jogos de descontos para sua empresa</h3>
+            <p>Digite nos campos abaixo as informações da nova gincana empresarial.</p>
         </header>
    
         <!-- Campos de entrada para criação de Gincanas Empresariais -->
@@ -124,7 +150,7 @@
                     <p class="form-text" id="textoCNPJ"><strong>Não se preocupe!</strong> Não iremos compartilhar seu CNPJ com ninguém.</p>
                     <input type="text" class="form-control" id="inputCNPJ" aria-describedby="textoCNPJ" required>
                 </div>
-                <div class="row">
+                <div class="row" id="linhaDatasGincana">
                     <div class="col">
                         <label for="inputInicio" class="form-label h5 formatacaoDestaque">Início da gincana<span class="asteriscoObrigatorio"> *</span></label>
                         <p class="form-text">Selecione o dia em que a gincana <strong>começa</strong>.</p>
@@ -265,19 +291,19 @@
                         </select>
                     </div>
                 </div>            
-                <p class="form-text"><strong>A partir do 10º colocado: </strong>10% + 1% por questão correta (MÁX.: 10).</p>
+                <p class="form-text" id="textoPontos2"><strong>A partir do 10º colocado: </strong>10% + 1% por questão correta (MÁX.: 10).</p>
                 <div class="mb-3">
                     <label for="inputImagem" class="form-label h5 formatacaoDestaque">Imagem de destaque</label>
                     <p class="form-text">Envie uma imagem de destaque para a sua gincana.</p>
                     <input class="form-control" type="file" id="inputImagem">   
                 </div>
-                <div class="form-check">
+                <div class="mb-3 form-check" style="margin-left: 15px;">
                     <input class="form-check-input" type="checkbox" value="" id="checkboxTermos" required>
                     <label class="form-check-label" for="checkboxTermos">Li e concordo com os <a href="#" target="_blank">Termos de Uso</a><span class="asteriscoObrigatorio"> *</span></label>
                 </div>
                 <div class="mb-3 text-center">
-                    <a class="btn btn-outline-danger formatacaoDestaque" href="#"><i class="fas fa-arrow-left fa-fw"></i>VOLTAR PARA A PÁGINA INICIAL</a>
-                    <input type="submit" class="btn btn-primary formatacaoDestaque" value="CADASTRAR GINCANA"></input>  
+                    <input type="submit" class="btn btn-primary formatacaoDestaque" value="CADASTRAR GINCANA"></input> 
+                    <a class="btn btn-outline-danger formatacaoDestaque" href="#"><i class="fas fa-arrow-left fa-fw"></i>VOLTAR PARA A PÁGINA INICIAL</a>  
                 </div>         
             </form>
         </main>

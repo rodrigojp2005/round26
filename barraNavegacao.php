@@ -1,29 +1,3 @@
-
-<!-- CSS -->
-
-<style>
-
-	.navbar-brand {
-
-		margin-right: 5px;
-
-	}
-
-	.formatacaoDestaque {
-
-		font-family: "Readex Pro", sans-serif;
-
-	}
-
-	body {
-
-		font-family: "Open Sans", sans-serif
-
-	}
-
-
-</style>
-
 <!-- Barra de navegação -->
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm">
