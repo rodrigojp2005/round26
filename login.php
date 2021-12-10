@@ -18,6 +18,12 @@
         <title>Login - Round26</title>
 
         <style>
+
+            i {
+
+                margin-right: 5px;
+
+            }
             
             html, body {
 
@@ -43,13 +49,6 @@
                 margin: auto;
 
             }
-
-            .form-signin .checkbox {
-  
-                font-weight: 400;
-
-            }
-
 
             .form-signin .form-floating:focus-within {
   
@@ -81,22 +80,29 @@
     <!-- Corpo da página -->
 
     <body class="text-center">
+
         <main class="form-signin card shadow">
+
+            <!-- Formulário de login --> 
+
             <form>
                 <h1 class="formatacaoDestaque">Round26</h1>
                 <h4 class="mb-3 fw-normal">Informe suas informações de entrada abaixo</h4>
                 <div class="form-floating">
-                    <input type="email" class="form-control" id="floatingInput">
-                    <label for="floatingInput">Endereço de e-mail</label>
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">E-mail</label>
                 </div>
                 <div class="form-floating">
-                    <input type="password" class="form-control" id="floatingPassword">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
                     <label for="floatingPassword">Senha</label>
                 </div>
-                <p class="mb-3 text-muted">Esqueceu sua senha? Clique <a href="#">aqui</a></p>
-                <button class="w-100 btn btn-lg btn-primary formatacaoDestaque" type="submit"><i class="fas fa-sign-in-alt fa-fw" style="margin-right: 5px;"></i>ENTRAR</button>
+                <p class="text-muted"><strong>Não possui uma conta? Clique <a href="#">aqui</a></strong></p>
+                <p class="text-muted">Esqueceu sua senha? Clique <a href="#">aqui</a></p>
+                <button class="w-100 btn btn-lg btn-primary formatacaoDestaque" type="submit"><i class="fas fa-sign-in-alt fa-fw"></i>ENTRAR</button>
             </form>
+
         </main>
+        
     </body>
 
 </html>

@@ -10,7 +10,7 @@
 			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 				<li class="nav-item dropdown">
           			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-					  <i class="fas fa-user-circle"></i>NOME DO USUÁRIO
+						<i class="fas fa-user-circle"></i>NOME DO USUÁRIO
           			</a>
           			<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 					  	<li><h6 class="dropdown-header formatacaoDestaque">Saldo</h6></li>

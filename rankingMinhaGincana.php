@@ -62,6 +62,28 @@
 
             }
 
+            #trofeuDourado {
+
+
+                color: gold; 
+                margin-right: 0px;
+
+            }
+
+            #trofeuPrata {
+
+                color: silver; 
+                margin-right: 0px;
+
+            }
+
+            #trofeuBronze {
+
+                color: #CD7F32; 
+                margin-right: 0px;
+
+            }
+
             @media (min-width: 0px) and (max-width: 1199.98px) { 
 				
 				.btn {
@@ -117,21 +139,21 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <th scope="row"><i class="fas fa-trophy fa-fw" style="color: gold; margin-right: 0px;"></i></th>
+                        <th scope="row"><i class="fas fa-trophy fa-fw" id="trofeuDourado"></i></th>
                         <td>Ana Joanna</td>
                         <td>20</td>
                         <td>100% (R$ 20,00)</td>
                         <td><a class="btn formatacaoDestaque"><i class="fas fa-check fa-fw"></i>RESGATADO</a></td>
                     </tr>
                     <tr>
-                        <th scope="row"><i class="fas fa-trophy fa-fw" style="color: silver; margin-right: 0px;"></i></th>
+                        <th scope="row"><i class="fas fa-trophy fa-fw" id="trofeuPrata"></i></th>
                         <td>Bob Roberto</td>
                         <td>19</td>
                         <td>90% (R$ 19,00)</td>
                         <td><a class="btn formatacaoDestaque"><i class="fas fa-check fa-fw"></i>RESGATADO</a></td>
                     </tr>
                     <tr>
-                        <th scope="row"><i class="fas fa-trophy fa-fw" style="color: #CD7F32; margin-right: 0px;"></i></th>
+                        <th scope="row"><i class="fas fa-trophy fa-fw" id="trofeuBronze"></i></th>
                         <td>Lucas Martins</td>
                         <td>18</td>
                         <td>80% (R$ 18,00)</td>

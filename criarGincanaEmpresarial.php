@@ -96,6 +96,12 @@
 
             }
 
+            #checkboxTermos {
+
+                margin-left: 15px;
+
+            }
+
             @media (min-width: 0px) and (max-width: 1199.98px) { 
 				
 				.btn {
@@ -297,9 +303,9 @@
                     <p class="form-text">Envie uma imagem de destaque para a sua gincana.</p>
                     <input class="form-control" type="file" id="inputImagem">   
                 </div>
-                <div class="mb-3 form-check" style="margin-left: 15px;">
-                    <input class="form-check-input" type="checkbox" value="" id="checkboxTermos" required>
-                    <label class="form-check-label" for="checkboxTermos">Li e concordo com os <a href="#" target="_blank">Termos de Uso</a><span class="asteriscoObrigatorio"> *</span></label>
+                <div class="mb-3 form-check" id="checkboxTermos">
+                    <input class="form-check-input" type="checkbox" value="" id="inputTermos" required>
+                    <label class="form-check-label" for="inputTermos">Li e concordo com os <a href="#" target="_blank">Termos de Uso</a><span class="asteriscoObrigatorio"> *</span></label>
                 </div>
                 <div class="mb-3 text-center">
                     <input type="submit" class="btn btn-primary formatacaoDestaque" value="CADASTRAR GINCANA"></input> 

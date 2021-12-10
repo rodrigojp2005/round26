@@ -91,9 +91,9 @@
         <main>
             <form class="row g-3 align-items-center d-flex justify-content-center" id="formulario">
                 <div class="mb-3">
-                    <label for="inputCNPJ" class="form-label h5 formatacaoDestaque">Pergunta<span class="asteriscoObrigatorio"> *</span></label>
-                    <p id="textoCNPJ" class="form-text">Digite a pergunta da sua gincana.</p>
-                    <input type="text" class="form-control" id="inputCNPJ" aria-describedby="textoCNPJ" required>
+                    <label for="inputPergunta" class="form-label h5 formatacaoDestaque">Pergunta<span class="asteriscoObrigatorio"> *</span></label>
+                    <p id="textoPergunta" class="form-text">Digite a pergunta da sua gincana.</p>
+                    <input type="text" class="form-control" id="inputPergunta" aria-describedby="textoPergunta" required>
                 </div>
                 <div class="mb-3">
                     <label for="inputAlternativa1" class="form-label h5 formatacaoDestaque">1ª alternativa<span class="asteriscoObrigatorio"> *</span></label>
@@ -111,9 +111,9 @@
                     <input type="text" class="form-control" id="inputAlternativa3" aria-describedby="textoAlternativa3">
                 </div>
                 <div class="mb-3">
-                    <label class="form-label h5 formatacaoDestaque" id="selectLabel">Gabarito<span class="asteriscoObrigatorio"> *</span></label>
-                    <p id="textoSelect" class="form-text">Escolha a alternativa (das informadas anteriormente) que está correta.</p>
-                    <select class="form-select" aria-labelledby="selectLabel">
+                    <label class="form-label h5 formatacaoDestaque" id="selectGabarito">Gabarito<span class="asteriscoObrigatorio"> *</span></label>
+                    <p class="form-text">Escolha a alternativa (das informadas anteriormente) que está correta.</p>
+                    <select class="form-select" aria-labelledby="selectGabarito">
                         <option selected>Selecione uma opção...</option>
                         <option value="1">1ª alternativa</option>
                         <option value="2">2ª alternativa</option>

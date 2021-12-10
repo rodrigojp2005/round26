@@ -73,13 +73,13 @@
             <form id="formulario">
                 <div class="mb-3">
                     <label for="inputNomeCompleto" class="form-label h5 formatacaoDestaque">Nome<span class="asteriscoObrigatorio"> *</span></label>
-                    <p class="form-text">Digite o nome que vai aparecer dentro do ambiente do site (ex.: ranking).</p>
-                    <input type="text" class="form-control" id="inputNomeCompleto" placeholder="Digite o seu nome completo...">
+                    <p class="form-text">Digite o nome que vai aparecer dentro do ambiente do site (ex.: ranking da gincana).</p>
+                    <input type="text" class="form-control" id="inputNomeCompleto" required>
                 </div>
                 <div class="mb-3">
                     <label for="inputEmail" class="form-label h5 formatacaoDestaque">E-mail<span class="asteriscoObrigatorio"> *</span></label>
                     <p class="form-text">Informe o e-mail que você irá utilizar para acessar o site.</p>
-                    <input type="text" class="form-control" id="inputEmail" placeholder="Digite o seu e-mail...">
+                    <input type="text" class="form-control" id="inputEmail" required>
                 </div>
                 <div class="mb-3">
                     <label for="inputImagem" class="form-label h5 formatacaoDestaque">Foto de perfil</label>
@@ -89,12 +89,12 @@
                 <div class="mb-3">
                     <label for="inputSenha" class="form-label h5 formatacaoDestaque">Senha<span class="asteriscoObrigatorio"> *</span></label>
                     <p class="form-text">Crie uma senha para realizar o acesso da conta. <strong>Aviso: </strong>crie uma senha que só você saiba!</p>
-                    <input type="text" class="form-control" id="inputSenha" placeholder="Digite sua senha...">
+                    <input type="text" class="form-control" id="inputSenha" required>
                 </div>
                 <div class="mb-3">
                     <label for="inputConfirmarSenha" class="form-label h5 formatacaoDestaque">Confirmar senha<span class="asteriscoObrigatorio"> *</span></label>
                     <p class="form-text">Digite novamente a sua senha abaixo.</p>
-                    <input type="text" class="form-control" id="inputConfirmarSenha" placeholder="Confirme sua senha...">
+                    <input type="text" class="form-control" id="inputConfirmarSenha" required>
                 </div>
                 <div class="mb-3 form-check">
                     <input class="form-check-input" type="checkbox" value="" id="checkboxTermos" required>
