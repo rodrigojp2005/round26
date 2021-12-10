@@ -62,28 +62,6 @@
 
             }
 
-            #trofeuDourado {
-
-
-                color: gold; 
-                margin-right: 0px;
-
-            }
-
-            #trofeuPrata {
-
-                color: silver; 
-                margin-right: 0px;
-
-            }
-
-            #trofeuBronze {
-
-                color: #CD7F32; 
-                margin-right: 0px;
-
-            }
-
             @media (min-width: 0px) and (max-width: 1199.98px) { 
 				
 				.btn {
